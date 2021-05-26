@@ -44,6 +44,8 @@ const getPanels = (node) => {
     const ar_source = node["ar_source"] || "";
     const description = node["description"] || "";
 
+    const path = window.location.pathname;
+
     return {
       key: title,
       title: title,
@@ -57,7 +59,7 @@ const getPanels = (node) => {
               disabled={en_source === ""}
               target="_blank"
             >
-              English
+              {path === "/ar" ? "الإنجليزية" : "English"}
             </Button>
             <Button
               as={"a"}
@@ -65,7 +67,7 @@ const getPanels = (node) => {
               disabled={ar_source === ""}
               target="_blank"
             >
-              Arabic
+              {path === "/ar" ? "عربى" : "Arabic"}
             </Button>
           </div>
         ),
