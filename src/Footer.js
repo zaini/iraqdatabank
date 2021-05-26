@@ -22,6 +22,9 @@ const Footer = () => {
           <a href="/">English الإنجليزية</a>
         </Box>
         <Box>
+          <a href="mailto:alialmawlawi@gmail.com">Contact 📧 اتصل</a>
+        </Box>
+        <Box>
           <a href="/ar">Arabic عربى</a>
         </Box>
       </Stack>
