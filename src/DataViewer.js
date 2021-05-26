@@ -32,7 +32,6 @@ const getPanels = (node) => {
       content: {
         content: (
           <div>
-            {title}
             <Accordion.Accordion panels={x} />
           </div>
         ),
