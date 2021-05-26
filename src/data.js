@@ -30,7 +30,7 @@ const data = [
       {
         title: "Official Gazette",
         ar_source: "http://google.fr/",
-        description: "Gazette stuff",
+        description: "Gazette stuff description goes here",
       },
       {
         title: "Council of Representatives",
