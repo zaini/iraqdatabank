@@ -8,8 +8,11 @@ import Footer from "./Footer";
 const App = () => {
   return (
     <Container>
-      <Center m="10px" mb="20px">
+      <Center m="10px">
         <Heading fontSize="50px">Iraq Data Bank</Heading>
+      </Center>
+      <Center>
+        <Heading>بنك المعلومات العراقي</Heading>
       </Center>
       <Divider />
       <DataViewer />

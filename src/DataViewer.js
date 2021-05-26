@@ -1,6 +1,7 @@
 import React from "react";
 import { Accordion, Button, Divider } from "semantic-ui-react";
-import data from "./data";
+import en_data from "./en_data";
+import ar_data from "./ar_data";
 
 const getPanels = (node) => {
   if (Array.isArray(node)) {
@@ -15,7 +16,6 @@ const getPanels = (node) => {
     return panels;
   } else if (node["topic"] && node["files"]) {
     // If node is "folder"
-    console.log("folder");
     const title = node["topic"];
     const files = node["files"];
     let x = [];
@@ -39,7 +39,6 @@ const getPanels = (node) => {
     };
   } else if (node["title"]) {
     // If node is a normal file
-    console.log("file");
     const title = node["title"] || "";
     const en_source = node["en_source"] || "";
     const ar_source = node["ar_source"] || "";
@@ -76,7 +75,10 @@ const getPanels = (node) => {
 };
 
 const DataViewer = () => {
+  const path = window.location.pathname;
+  let data = path === "/ar" ? ar_data : en_data;
   const rootPanels = getPanels(data);
+
   return (
     <>
       <Accordion panels={rootPanels} fluid styled />
