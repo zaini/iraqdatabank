@@ -81,7 +81,12 @@ const DataViewer = () => {
 
   return (
     <>
-      <Accordion panels={rootPanels} fluid styled />
+      <Accordion
+        dir={path === "/ar" ? "rtl" : "ltr"}
+        panels={rootPanels}
+        fluid
+        styled
+      />
     </>
   );
 };
