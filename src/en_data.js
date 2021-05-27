@@ -32,8 +32,5 @@ const data = [
             ar_source: "http://google.fr/",
           },
         ],
-      },
-    ],
-  },
 ];
 export default data;
