@@ -31,6 +31,17 @@ const data = [
             en_source: "http://google.com/",
             ar_source: "http://google.fr/",
           },
+           {
+        title: "Government Agenda 2014-2018",
+        ar_source: "http://pmo.iq/pdf/3.pdf",
+          },
+          {
+            title: "Political Agreement between Political Blocs 2014",
+            ar_source: "http://pmo.iq/pdf/4.pdf:,
+          }, 
         ],
+      },
+   ],
+ },      
 ];
 export default data;
