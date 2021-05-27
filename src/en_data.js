@@ -54,6 +54,15 @@ const data = [
         title:"Council of Representatives",
         ar_source: "http://parliament.iq", 
       },
+      {
+        title:"Official Gazette",
+        ar_source:"http://www.moj.gov.iq/iraqmag/",
+      },
+      {
+        title:"Iraqi Constitution",
+        en_source:"http://zaidalali.bookswarm.co.uk/wp-content/uploads/2014/03/Iraqs-constitution-unofficial-translation.docx",
+        ar_source:"http://parliament.iq/wp-content/uploads/2017/01/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.pdf",
+      },
    ],
 } 
 ];
