@@ -55,9 +55,6 @@ const data = [
         ar_source: "http://parliament.iq", 
       },
    ],
-}
-  {
-    topic: "Judicial Branch",
-  },
+} 
 ];
 export default data;
