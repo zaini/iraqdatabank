@@ -55,5 +55,6 @@ const data = [
         ar_source: "http://parliament.iq", 
       },
    ],   
+   },
 ];
 export default data;
