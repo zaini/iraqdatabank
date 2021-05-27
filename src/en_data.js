@@ -53,8 +53,18 @@ const data = [
       {
         title:"Council of Representatives",
         ar_source: "http://parliament.iq", 
-      },
+        files: [
+          {
+            title: "Approved legislation",
+            ar_source:"https://ar.parliament.iq/%d8%a7%d9%84%d9%82%d9%88%d8%a7%d9%86%d9%8a%d9%86-%d8%a7%d9%84%d8%b5%d8%a7%d8%af%d8%b1%d8%a9/",
+          },
+          {,
+            title:"Members of Parliament",
+            ar_source:"https://ar.parliament.iq/%d8%a7%d9%84%d9%86%d9%88%d8%a7%d8%a8-2/",
+          },
+              ]
+     },
    ],   
-   },
+  },
 ];
 export default data;
