@@ -69,6 +69,9 @@ const data = [
         ar_source:"http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
       },
    ],
-} 
+ } 
+ {
+  "topic":"Judicial Branch",
+  }
 ];
 export default data;
