@@ -52,8 +52,8 @@ const data = [
     files: [
       {
         title:"Council of Representatives",
-        ar_source: "http://parliament.iq",
-      ],  
-      },  
+        ar_source: "http://parliament.iq", 
+      },
+   ],   
 ];
 export default data;
