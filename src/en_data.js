@@ -125,6 +125,6 @@ const data = [
         ar_source:"https://moj.gov.iq/upload/pdf/4485.pdf",
       },
    ],
- } 
+ }, 
 ]
 export default data;
