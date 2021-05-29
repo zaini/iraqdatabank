@@ -109,6 +109,36 @@ const data = [
     topic: "Budgets and Finance",
     files: [
       ]
-  }
+  },
+   {
+    topic: "Monetary Policy",
+    files: [
+      ]
+   },
+   {
+    topic: "Energy",
+    files: [
+      ]
+   },
+   {
+    topic: "Economic and Social Development",
+    files: [
+      ]
+   },
+   {
+    topic: "Budgets and Finance",
+    files: [
+      ]
+   },
+   {
+    topic: "Elections",
+    files: [
+      ]
+   },
+   {
+    topic: "Statistics and Indicators",
+    files: [
+      ]
+   },
 ]
 export default data;
