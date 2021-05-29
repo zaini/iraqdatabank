@@ -24,14 +24,14 @@ const App = () => {
 
       <Text textAlign="center" fontSize="18px">
         Iraq Databank is a clearinghouse and research tool for reports and
-        statistics on Iraq.
+        statistics on Iraq
       </Text>
 
       <br />
 
       <Text textAlign="center" fontSize="18px">
         بنك معلومات العراق هو قاعدة بيانات واداة بحثية للتقارير والاحصائيات حول
-        العراق.
+        العراق
       </Text>
 
       <Divider />
