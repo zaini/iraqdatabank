@@ -17,7 +17,7 @@ const App = () => {
         <Image boxSize="200px" src={Logo} />
       </Center>
       <Center>
-        <Heading fontSize="50px">بنك المعلومات للعراق</Heading>
+        <Heading fontSize="50px">بنك معلومات العراق</Heading>
       </Center>
 
       <Divider />
@@ -25,6 +25,13 @@ const App = () => {
       <Text textAlign="center" fontSize="18px">
         Iraq Databank is a clearinghouse and research tool for reports and
         statistics on Iraq.
+      </Text>
+
+      <br />
+
+      <Text textAlign="center" fontSize="18px">
+        بنك معلومات العراق هو قاعدة بيانات واداة بحثية للتقارير والاحصائيات حول
+        العراق.
       </Text>
 
       <Divider />
