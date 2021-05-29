@@ -30,6 +30,7 @@ const Footer = () => {
         <a
           href="https://zaini.me/"
           target="_blank"
+          rel="noreferrer"
           style={{ color: "gray", fontSize: "13px" }}
         >
           2021 &copy; Ali Zaini علي زيني
