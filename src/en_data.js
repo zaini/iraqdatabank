@@ -316,8 +316,7 @@ const data = [
     files: [
       {
         title: "Independent High Electoral Commission (IHEC)",
-        en_source: "http://www.ihec.iq/en/",
-        ar_source: "http://www.ihec.iq/ar/",
+        ar_source: "http://www.ihec.iq/",
       },
     ],
   },
