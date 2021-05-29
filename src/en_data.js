@@ -250,11 +250,31 @@ const data = [
       {
         topic: "Private Sector Development",
         files: [
+          {
+            topic: "Private Sector Development Strategy 2014-2030",
+            en_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
+            ar_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
+          },
         ],
       },
       {
       topic: "National Investment Commission",
       files: [
+        {
+          title:"Legal Guide to Investing in Iraq (2016)",
+          en_source: "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
+          ar_source: "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
+        },
+        {
+          title:"Investor’s Guide to Iraq (2016)",
+          en_source: "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-english.pdf",
+          ar_source: "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-arabic.pdf",
+        },
+        {
+          title:"Investment Map of Iraq (2016)",
+          en_source: "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20english.pdf",
+          ar_source: "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20-%20arabic%20.pdf",
+        },
       ],
       },
       {
