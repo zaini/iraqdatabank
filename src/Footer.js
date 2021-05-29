@@ -25,7 +25,7 @@ const Footer = () => {
           <a href="mailto:alialmawlawi@gmail.com">Contact 📧 اتصل</a>
         </Box>
         <Box>
-          <a href="/ar">Arabic عربى</a>
+          <a href="/ar">Arabic العربية</a>
         </Box>
       </Stack>
     </Box>
