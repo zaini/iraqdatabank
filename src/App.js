@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Divider } from "semantic-ui-react";
-import { Center } from "@chakra-ui/layout";
+import { Center, Text } from "@chakra-ui/layout";
 import { Heading } from "@chakra-ui/layout";
 import DataViewer from "./DataViewer";
 import Footer from "./Footer";
@@ -19,9 +19,20 @@ const App = () => {
       <Center>
         <Heading fontSize="50px">بنك المعلومات للعراق</Heading>
       </Center>
+
       <Divider />
+
+      <Text textAlign="center" fontSize="18px">
+        Iraq Databank is a clearinghouse and research tool for reports and
+        statistics on Iraq.
+      </Text>
+
+      <Divider />
+
       <DataViewer />
+
       <Divider />
+
       <Footer />
     </Container>
   );
