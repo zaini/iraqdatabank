@@ -227,7 +227,22 @@ const data = [
    {
     topic: "Energy",
     files: [
-      ]
+      {
+        title:"Monthly Iraq crude exports",
+        en_source: "https://somooil.gov.iq/exports",
+        ar_source: "https://somooil.gov.iq/exports",
+      },
+      {
+        topic: "Extractive Industries Transparency Initiative",
+        files: [
+          {
+            title: "Iraq EITI Report 2018 (published March 2021)",
+            en_source: "https://eiti.org/files/documents/iraq_2018_eiti_report_en.pdf",
+            ar_source: "https://eiti.org/files/documents/iraq_2018_eiti_report_ar.pdf",
+          },
+        ],
+      },
+     ],
    },
    {
     topic: "Economic and Social Development",
