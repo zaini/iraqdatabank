@@ -251,7 +251,7 @@ const data = [
         topic: "Private Sector Development",
         files: [
           {
-            topic: "Private Sector Development Strategy 2014-2030",
+            title: "Private Sector Development Strategy 2014-2030",
             en_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
             ar_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
           },
@@ -285,19 +285,32 @@ const data = [
       ],
    },
    {
-    topic: "Budgets and Finance",
-    files: [
-      ]
-   },
-   {
     topic: "Elections",
     files: [
-      ]
+      {
+        title: "Independent High Electoral Commission (IHEC)",
+        en_source: "http://www.ihec.iq/en/",
+        ar_source: "http://www.ihec.iq/ar/",
+      },
+      ],
    },
    {
     topic: "Statistics and Indicators",
     files: [
-      ]
+      {
+        title: "Annual Statistical Abstract 2018-19",
+        en_source: "http://cosit.gov.iq/ar/2018-2019",
+        ar_source: "http://cosit.gov.iq/ar/2018-2019",
+      },
+      {
+        title: "Demographic and Housing Indicators",
+        ar_source: "http://cosit.gov.iq/ar/2013-01-31-08-43-38",
+      },
+      {
+        title: "Health and Environmental Indicators",
+        ar_source: "http://cosit.gov.iq/ar/env-ind",
+      },
+      ],
    },
 ]
 export default data;
