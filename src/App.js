@@ -10,15 +10,15 @@ import { Image } from "@chakra-ui/react";
 const App = () => {
   return (
     <Container>
-      <Center m="10px">
-        <Heading fontSize="50px">Iraq Databank</Heading>
-      </Center>
+      <Heading fontSize="48px" m="10px" textAlign="center">
+        Iraq Databank
+      </Heading>
       <Center>
         <Image boxSize="200px" src={Logo} />
       </Center>
-      <Center>
-        <Heading fontSize="50px">بنك معلومات العراق</Heading>
-      </Center>
+      <Heading fontSize="48px" textAlign="center">
+        بنك معلومات العراق
+      </Heading>
 
       <Divider />
 
