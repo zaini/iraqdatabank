@@ -48,25 +48,25 @@ const data = [
     ],
   },
   {
-    topic: "Legislative Branch",
+    topic: "السلطة التشريعية",
     files: [
       {
-        title: "Council of Representatives",
+        title: "مجلس النواب",
         ar_source: "http://parliament.iq",
       },
       {
-        title: "Official Gazette",
+        title: "الجريدة الرسمية",
         ar_source: "http://www.moj.gov.iq/iraqmag/",
       },
       {
-        title: "Iraqi Constitution",
+        title: "الدستور العراقي",
         en_source:
           "http://zaidalali.bookswarm.co.uk/wp-content/uploads/2014/03/Iraqs-constitution-unofficial-translation.docx",
         ar_source:
           "http://parliament.iq/wp-content/uploads/2017/01/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.pdf",
       },
       {
-        title: "Legal Glossary of Terms",
+        title: "دليل للمصطلحات القانونية",
         en_source:
           "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
         ar_source:
@@ -75,32 +75,32 @@ const data = [
     ],
   },
   {
-    topic: "Judicial Branch",
+    topic: "السلطة القضائية",
     files: [
       {
-        title: "Higher Judicial Council",
+        title: "مجلس القضاء الاعلى",
         ar_source: "http://www.iraqja.iq/",
       },
       {
-        title: "Federal Supreme Court",
+        title: "المحكمة الاتحادية العليا",
         ar_source: "https://www.iraqfsc.iq/ethadai.php",
       },
       {
-        topic: "Commission of Integrity",
+        topic: "هيئة النزاهة",
         files: [
           {
-            title: "Anti-Corruption Strategy 2016-2020",
+            title: "استراتيجية مكافحة الفساد للفترة ٢٠١٦-٢٠٢٠",
             ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
           },
           {
-            topic: "Annual Reports",
+            topic: "التقارير السنوية",
             files: [
               {
-                title: "Annual Report 2016",
+                title: "التقرير السنوي لعام ٢٠١٦",
                 ar_source: "http://www.nazaha.iq/pdf_up/3951/mlreportF2016.pdf",
               },
               {
-                title: "Annual Report 2015",
+                title: "التقرير السنوي لعام ٢٠١٥",
                 ar_source:
                   "http://www.nazaha.iq/body.asp?field=news_arabic&id=3563",
               },
@@ -111,69 +111,69 @@ const data = [
     ],
   },
   {
-    topic: "Budgets and Finance",
+    topic: "الموازنات والمالية",
     files: [
       {
-        topic: "Annual Federal Budget Laws",
+        topic: "قوانين الموازنة الاتحادية السنوية",
         files: [
           {
-            title: "Federal Budget 2021 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠٢١ (مع المرفقات)",
             ar_source: "https://moj.gov.iq/uploaded/4625.pdf",
           },
           {
-            title: "Federal Budget 2019 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٩ (مع المرفقات)",
             ar_source: "https://moj.gov.iq/upload/pdf/4529.pdf",
           },
           {
-            title: "Federal Budget 2018 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٨ (مع المرفقات)",
             ar_source: "https://moj.gov.iq/upload/pdf/4485.pdf",
           },
           {
-            title: "Federal Budget 2017 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٧ (مع المرفقات)",
             ar_source: "http://moj.gov.iq/wqam/4430.pdf",
           },
           {
-            title: "Federal Budget 2016 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٦ (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4394.pdf",
           },
           {
-            title: "Federal Budget 2015 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٥ (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4352.pdf",
           },
           {
-            title: "Federal Budget 2013 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٣ (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4272.pdf",
           },
           {
-            title: "Federal Budget 2012 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٢ (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4233.pdf",
           },
           {
-            title: "Federal Budget 2011 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١١ (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4180.pdf",
           },
           {
-            title: "Federal Budget 2010 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠١٠ (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%85%D8%B5%D9%88%D8%AA%20%D8%B9%D9%84%D9%8A%D9%87%D8%A7.pdf",
           },
           {
-            title: "Federal Budget 2009 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠٠٩ (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202009.pdf",
           },
           {
-            title: "Federal Budget 2008 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠٠٨ (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D8%B3%D9%86%D8%A9%202008.pdf",
           },
           {
-            title: "Federal Budget 2007 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠٠٧ (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202007.pdf",
           },
           {
-            title: "Federal Budget 2006 (with Annexes)",
+            title: "قانون الموازنة الاتحادية لعام ٢٠٠٦ (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202006.pdf",
           },
@@ -182,26 +182,26 @@ const data = [
     ],
   },
   {
-    topic: "Monetary Policy",
+    topic: "السياسة النقدية",
     files: [
       {
-        topic: "Central Bank of Iraq",
+        topic: "البنك المركزي العراقي",
         files: [
           {
-            topic: "Statements of Financial Position",
+            topic: "جداول الوضع المالي للبنك المركزي",
             files: [
               {
-                title: "Statement of Financial Position (March 2021)",
+                title: "جداول الوضع المالي (آذار ٢٠٢١)",
                 en_source:
                   "https://cbi.iq/static/uploads/up/file-16193397474110.pdf",
               },
               {
-                title: "Statement of Financial Position (February 2021)",
+                title: "جداول الوضع المالي (شباظ ٢٠٢١)",
                 en_source:
                   "https://cbi.iq/static/uploads/up/file-161692948015696.pdf",
               },
               {
-                title: "Statement of Financial Position (January 2021)",
+                title: "جداول الوضع المالي (كانون الثاني ٢٠٢١)",
                 en_source:
                   "https://cbi.iq/static/uploads/up/file-161545360093508.pdf",
               },
@@ -210,50 +210,51 @@ const data = [
         ],
       },
       {
-        topic: "Financial Statements (Ernst & Young)",
+        topic: "البيانات المالية (إرنست ويونغ)",
         files: [
           {
-            title: "Financial Statement 2019",
+            title: "البيان المالي لعام ٢٠١٩",
             ar_source:
               "https://cbi.iq/static/uploads/up/file-159851680953542.pdf",
           },
           {
-            title: "Financial Statement 2018",
+            title: "البيان المالي لعام ٢٠١٨",
             ar_source:
               "https://cbi.iq/static/uploads/up/file-156040785775959.pdf",
           },
           {
-            title: "Financial Statement 2017",
+            title: "البيان المالي لعام ٢٠١٧",
             ar_source:
               "https://cbi.iq/static/uploads/up/file-152499442357779.pdf",
           },
         ],
       },
       {
-        topic: "International Monetary Fund",
+        topic: "صندوق النقد الدولي",
         files: [
           {
-            title: "2020 Article IV Consultation",
+            title: "مشاورات المادة الرابعة لعام ٢٠٢٠",
             en_source:
               "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx",
+            ar_source:"https://www.imf.org/ar/News/Articles/2021/02/11/pr2137-iraq-imf-executive-board-concludes-2020-article-iv-consultation",
           },
         ],
       },
     ],
   },
   {
-    topic: "Energy",
+    topic: "الطاقة",
     files: [
       {
-        title: "Monthly Iraq crude exports",
+        title: "صادرات النفط الخام الشهرية",
         en_source: "https://somooil.gov.iq/exports",
         ar_source: "https://somooil.gov.iq/exports",
       },
       {
-        topic: "Extractive Industries Transparency Initiative",
+        topic: "مبادرة الشفافية للصناعات الاستخراجية",
         files: [
           {
-            title: "Iraq EITI Report 2018 (published March 2021)",
+            title: "تقرير المبادرة للعراق لعام ٢٠١٨ (آذار عام ٢٠٢١)",
             en_source:
               "https://eiti.org/files/documents/iraq_2018_eiti_report_en.pdf",
             ar_source:
@@ -264,13 +265,13 @@ const data = [
     ],
   },
   {
-    topic: "Economic and Social Development",
+    topic: "التنمية الاقتصادية والاجتماعية",
     files: [
       {
-        topic: "Private Sector Development",
+        topic: "تطوير القطاع الخاص",
         files: [
           {
-            title: "Private Sector Development Strategy 2014-2030",
+            title: "استراتيجية تنمية القطاع الخاص للفترة ٢٠١٤-٢٠٢٠",
             en_source:
               "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
             ar_source:
@@ -279,24 +280,24 @@ const data = [
         ],
       },
       {
-        topic: "National Investment Commission",
+        topic: "هيئة الاستثمار الوطنية",
         files: [
           {
-            title: "Legal Guide to Investing in Iraq (2016)",
+            title: "الدليل القانوني لإلستثمار في العراق لعام ٢٠١٦",
             en_source:
               "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
             ar_source:
               "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
           },
           {
-            title: "Investor’s Guide to Iraq (2016)",
+            title: "دليل المستثمر في العراق لعام ۲۰۱٦",
             en_source:
               "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-english.pdf",
             ar_source:
               "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-arabic.pdf",
           },
           {
-            title: "Investment Map of Iraq (2016)",
+            title: "الخارطة الاستثمارية للعراق لعام ٢٠١٦",
             en_source:
               "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20english.pdf",
             ar_source:
@@ -305,14 +306,14 @@ const data = [
         ],
       },
       {
-        title: "IOM Displacement Tracking Matrix",
+        title: "المنظمة الدولية للهجرة - مصفوفة تتبع المهجرين العراقيين",
         en_source: "http://iraqdtm.iom.int/",
         ar_source: "http://iraqdtm.iom.int/Arabic,",
       },
     ],
   },
   {
-    topic: "Elections",
+    topic: "الانتخابات",
     files: [
       {
         title: "Independent High Electoral Commission (IHEC)",
@@ -322,19 +323,19 @@ const data = [
     ],
   },
   {
-    topic: "Statistics and Indicators",
+    topic: "إحصاءات ومؤشرات",
     files: [
       {
-        title: "Annual Statistical Abstract 2018-19",
+        title: "المجموعة الاحصائية لعام ٢٠١٨-٢٠١٩",
         en_source: "http://cosit.gov.iq/ar/2018-2019",
         ar_source: "http://cosit.gov.iq/ar/2018-2019",
       },
       {
-        title: "Demographic and Housing Indicators",
+        title: "مؤشرات الإسكان والديموغرافية",
         ar_source: "http://cosit.gov.iq/ar/2013-01-31-08-43-38",
       },
       {
-        title: "Health and Environmental Indicators",
+        title: "الصحة والمؤشرات البيئية",
         ar_source: "http://cosit.gov.iq/ar/env-ind",
       },
     ],
