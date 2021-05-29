@@ -1,25 +1,25 @@
 const data = [
   {
-    topic: "Executive Branch",
+    topic: "السلطة التنفيذية",
     files: [
       {
-        title: "Council of Ministers resolutions",
+        title: "قرارات مجلس الوزراء",
         ar_source: "http://www.cabinet.iq/ArticlesBrowse.aspx?CatID=6/",
       },
       {
-        title: "Prime Minister’s Office statements",
+        title: "بيانات مكتب رئيس وزراء",
         en_source: "http://pmo.iq/pme/ipresse.htm/",
         ar_source: "https://pmo.iq/press.htm/",
       },
       {
-        title: "Government Agenda 2020",
+        title: "برنامج الحكومة ٢٠٢٠",
         ar_source: "https://pmo.iq/press2020/6-5-202002.htm/",
       },
       {
-        topic: "Local government",
+        topic: "الحكم المحلي",
         files: [
           {
-            title: "Law of Provinces Not Associated to Regions (2008)",
+            title: "قانون المحافظات غير المنتظمة في إقليم (٢٠٠٨)",
             en_source:
               "http://gjpi.org/wp-content/uploads/2009/01/cor_law_governorates_not_part_regions_en.pdf/",
             ar_source:
@@ -28,19 +28,19 @@ const data = [
         ],
       },
       {
-        topic: "Archives",
+        topic: "أرشيف",
         files: [
           {
-            title: "Strategic Priorities for Ministerial Plans 2014-2018",
+            title: "الإطار العام لخطة الحكومة للفترة ٢٠١٤-٢٠١٨",
             en_source: "http://google.com/",
             ar_source: "http://google.fr/",
           },
           {
-            title: "Government Agenda 2014-2018",
+            title: "برنامج الحكومة للفترة ٢٠١٤-٢٠١٨",
             ar_source: "http://pmo.iq/pdf/3.pdf",
           },
           {
-            title: "Political Agreement between Political Blocs 2014",
+            title: "وثيقة الاتفاق السياسي بين الكتل السياسية ٢٠١٤",
             ar_source: "http://pmo.iq/pdf/4.pdf",
           },
         ],
