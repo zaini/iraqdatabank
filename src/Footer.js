@@ -13,11 +13,6 @@ const Footer = () => {
       color="gray.500"
     >
       <Stack direction="row" spacing="4" align="center" justify="space-between">
-        {/* <Box>
-          <a href="https://zaini.me/" target="_blank">
-            علي زيني Ali Zaini &copy;
-          </a>
-        </Box> */}
         <Box>
           <a href="/">English الإنجليزية</a>
         </Box>
@@ -28,6 +23,18 @@ const Footer = () => {
           <a href="/ar">Arabic العربية</a>
         </Box>
       </Stack>
+
+      <br />
+
+      <Box textAlign="center">
+        <a
+          href="https://zaini.me/"
+          target="_blank"
+          style={{ color: "gray", fontSize: "13px" }}
+        >
+          2021 &copy; Ali Zaini علي زيني
+        </a>
+      </Box>
     </Box>
   );
 };
