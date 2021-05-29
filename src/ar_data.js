@@ -96,6 +96,14 @@ const data = [
             topic: "التقارير السنوية",
             files: [
               {
+                title: "ملخص التقرير السنوي لعام ٢٠٢٠",
+                ar_source: "https://nazaha.iq/pdf_up/6265/MRep2020.pdf",
+              },
+              {
+                title: "التقرير السنوي لعام ٢٠١٩",
+                ar_source: "https://nazaha.iq/pdf_up/5778/f_report_2019.pdf",
+              },
+              {
                 title: "التقرير السنوي لعام ٢٠١٦",
                 ar_source: "http://www.nazaha.iq/pdf_up/3951/mlreportF2016.pdf",
               },
