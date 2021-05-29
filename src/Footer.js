@@ -14,13 +14,22 @@ const Footer = () => {
     >
       <Stack direction="row" spacing="4" align="center" justify="space-between">
         <Box>
-          <a href="/">English الإنجليزية</a>
+          <a href="/">English | الإنجليزية</a>
         </Box>
         <Box>
-          <a href="mailto:info@iraqdatabank.org">Contact 📧 اتصل</a>
+          <a href="mailto:info@iraqdatabank.org">Contact | اتصل</a>
         </Box>
         <Box>
-          <a href="/ar">Arabic العربية</a>
+          <a
+            href="https://twitter.com/iraqdatabank"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Twitter | تويتر
+          </a>
+        </Box>
+        <Box>
+          <a href="/ar">Arabic | العربية</a>
         </Box>
       </Stack>
 
@@ -33,7 +42,7 @@ const Footer = () => {
           rel="noreferrer"
           style={{ color: "gray", fontSize: "13px" }}
         >
-          2021 &copy; Ali Zaini علي زيني
+          2021 &copy; Ali Zaini | علي زيني
         </a>
       </Box>
     </Box>
