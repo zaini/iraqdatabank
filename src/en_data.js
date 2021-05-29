@@ -95,6 +95,14 @@ const data = [
           {
             topic: "Annual Reports",
             files: [
+                 {
+                title: "Summary of Annual Report 2020",
+                ar_source: "https://nazaha.iq/pdf_up/6265/MRep2020.pdf",
+              },
+              {
+                title: "Annual Report 2019",
+                ar_source: "https://nazaha.iq/pdf_up/5778/f_report_2019.pdf",
+              },
               {
                 title: "Annual Report 2016",
                 ar_source: "http://www.nazaha.iq/pdf_up/3951/mlreportF2016.pdf",
