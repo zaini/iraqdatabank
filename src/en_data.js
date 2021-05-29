@@ -108,25 +108,7 @@ const data = [
   {
     topic: "Budgets and Finance",
     files: [
-      {
-        topic:"Annual Federal Budget Laws",
-        files: [ 
-      },
-      {
-        title:"Federal Budget 2021 (with Annexes)",
-        ar_source:"https://moj.gov.iq/uploaded/4625.pdf",
-      },
-      {
-        title:"Federal Budget 2019 (with Annexes)",
-        ar_source:"https://moj.gov.iq/upload/pdf/4529.pdf",
-      },
-      {
-        title:"Federal Budget 2018 (with Annexes)",
-        ar_source:"https://moj.gov.iq/upload/pdf/4485.pdf",
-      },
-     ],
-   },
- ]
- }
+      ]
+  }
 ]
 export default data;
