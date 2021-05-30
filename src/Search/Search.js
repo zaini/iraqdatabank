@@ -50,13 +50,10 @@ const DataViewer = () => {
           placeholder="Search..."
           style={{ width: "25rem" }}
           onChange={(e) => {
-            const query = e.target.value;
-            console.log(query);
+            const query = e.target.value.toLowerCase();
             if (query === "") {
               setResults([]);
-              console.log("no query");
             } else {
-              console.log("proper query", query);
               setResults(
                 searchData.filter(
                   (file) =>
