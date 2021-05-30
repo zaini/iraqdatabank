@@ -1,7 +1,9 @@
 import React from "react";
-import { Search } from "semantic-ui-react";
+import { Input, Search } from "semantic-ui-react";
 import en_data from "../en_data";
 import ar_data from "../ar_data";
+import SearchResults from "./SearchResults";
+import { Box, Center } from "@chakra-ui/layout";
 
 const flattenData = (node) => {
   if (Array.isArray(node)) {
@@ -36,14 +38,22 @@ const flattenData = (node) => {
 const DataViewer = () => {
   const path = window.location.pathname;
   let data = path === "/ar" ? ar_data : en_data;
-  const searchData = flattenData(data);
-
-  console.log(searchData.flat(5));
+  const searchData = flattenData(data).flat(5);
 
   return (
-    <>
-      <Search />
-    </>
+    <Box>
+      <Center>
+        <Input
+          icon="search"
+          placeholder="Search..."
+          style={{ width: "25rem" }}
+        />
+      </Center>
+      <br />
+      <Center>
+        <SearchResults data={searchData} />
+      </Center>
+    </Box>
   );
 };
 
