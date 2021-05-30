@@ -1,7 +1,8 @@
 import React from "react";
 import { Accordion, Button, Divider } from "semantic-ui-react";
-import en_data from "./en_data";
-import ar_data from "./ar_data";
+import en_data from "../en_data";
+import ar_data from "../ar_data";
+import DataFile from "./DataFile";
 
 const getPanels = (node) => {
   if (Array.isArray(node)) {
@@ -44,32 +45,17 @@ const getPanels = (node) => {
     const ar_source = node["ar_source"] || "";
     const description = node["description"] || "";
 
-    const path = window.location.pathname;
-
     return {
       key: title,
       title: title,
       content: {
         content: (
-          <div>
-            {description && [description, <Divider />]}
-            <Button
-              as={"a"}
-              href={en_source}
-              disabled={en_source === ""}
-              target="_blank"
-            >
-              {path === "/ar" ? "الإنجليزية" : "English"}
-            </Button>
-            <Button
-              as={"a"}
-              href={ar_source}
-              disabled={ar_source === ""}
-              target="_blank"
-            >
-              {path === "/ar" ? "عربى" : "Arabic"}
-            </Button>
-          </div>
+          <DataFile
+            title={title}
+            en_source={en_source}
+            ar_source={ar_source}
+            description={description}
+          />
         ),
       },
     };
