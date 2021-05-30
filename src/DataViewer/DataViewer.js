@@ -1,8 +1,8 @@
 import React from "react";
-import { Accordion, Button, Divider } from "semantic-ui-react";
+import { Accordion } from "semantic-ui-react";
 import en_data from "../en_data";
 import ar_data from "../ar_data";
-import DataFile from "./DataFile";
+import DataAccordion from "./DataAccordion";
 
 const getPanels = (node) => {
   if (Array.isArray(node)) {
@@ -50,7 +50,7 @@ const getPanels = (node) => {
       title: title,
       content: {
         content: (
-          <DataFile
+          <DataAccordion
             title={title}
             en_source={en_source}
             ar_source={ar_source}

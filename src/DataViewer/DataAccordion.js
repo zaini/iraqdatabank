@@ -1,12 +1,13 @@
 import React from "react";
 import { Button, Divider } from "semantic-ui-react";
 
-const DataFile = ({ title, description, en_source, ar_source }) => {
+const DataAccordion = ({ title, description, en_source, ar_source }) => {
   const path = window.location.pathname;
 
   return (
     <div>
       {description && [description, <Divider />]}
+
       <Button
         as={"a"}
         href={en_source}
@@ -15,6 +16,7 @@ const DataFile = ({ title, description, en_source, ar_source }) => {
       >
         {path === "/ar" ? "الإنجليزية" : "English"}
       </Button>
+
       <Button
         as={"a"}
         href={ar_source}
@@ -27,4 +29,4 @@ const DataFile = ({ title, description, en_source, ar_source }) => {
   );
 };
 
-export default DataFile;
+export default DataAccordion;
