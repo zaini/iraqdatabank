@@ -135,6 +135,7 @@ const data = [
     files: [
       {
         topic: "Annual Federal Budget Laws",
+        description: "Note that federal budgets were not approved in 2014 and 2020.", 
         files: [
           {
             title: "Federal Budget 2021 (with Annexes)",
@@ -266,6 +267,7 @@ const data = [
     files: [
       {
         title: "Monthly Iraq crude exports",
+        description: "Figures to not include KRG independent exports.",
         en_source: "https://somooil.gov.iq/exports",
         ar_source: "https://somooil.gov.iq/exports",
       },
