@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion } from "semantic-ui-react";
+import { Accordion, Divider } from "semantic-ui-react";
 import en_data from "../en_data";
 import ar_data from "../ar_data";
 import DataAccordion from "./DataAccordion";
@@ -19,6 +19,7 @@ const getPanels = (node) => {
     // If node is "folder"
     const title = node["topic"];
     const files = node["files"];
+    const description = node["description"];
     let x = [];
 
     for (let i = 0; i < files.length; i++) {
@@ -32,9 +33,10 @@ const getPanels = (node) => {
       title: title,
       content: {
         content: (
-          <div>
+          <>
+            {description && [description, <Divider />]}
             <Accordion.Accordion panels={x} />
-          </div>
+          </>
         ),
       },
     };
