@@ -244,7 +244,8 @@ const data = [
             title: "مشاورات المادة الرابعة لعام ٢٠٢٠",
             en_source:
               "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx",
-            ar_source:"https://www.imf.org/ar/News/Articles/2021/02/11/pr2137-iraq-imf-executive-board-concludes-2020-article-iv-consultation",
+            ar_source:
+              "https://www.imf.org/ar/News/Articles/2021/02/11/pr2137-iraq-imf-executive-board-concludes-2020-article-iv-consultation",
           },
         ],
       },

@@ -88,12 +88,12 @@ const data = [
       {
         topic: "Federal Board of Supreme Audit",
         files: [
-      {
-        title: "FBSA Homepage",
-        en_source: "http://www.fbsa.gov.iq/en",
-        ar_source: "http://www.fbsa.gov.iq/",
-      },
-      ],
+          {
+            title: "FBSA Homepage",
+            en_source: "http://www.fbsa.gov.iq/en",
+            ar_source: "http://www.fbsa.gov.iq/",
+          },
+        ],
       },
       {
         topic: "Commission of Integrity",
@@ -105,7 +105,7 @@ const data = [
           {
             topic: "Annual Reports",
             files: [
-                 {
+              {
                 title: "Summary of Annual Report 2020",
                 ar_source: "https://nazaha.iq/pdf_up/6265/MRep2020.pdf",
               },
