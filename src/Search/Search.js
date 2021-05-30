@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Input, Search } from "semantic-ui-react";
 import en_data from "../en_data";
 import ar_data from "../ar_data";
@@ -40,6 +40,8 @@ const DataViewer = () => {
   let data = path === "/ar" ? ar_data : en_data;
   const searchData = flattenData(data).flat(5);
 
+  const [results, setResults] = useState([]);
+
   return (
     <Box>
       <Center>
@@ -47,11 +49,27 @@ const DataViewer = () => {
           icon="search"
           placeholder="Search..."
           style={{ width: "25rem" }}
+          onChange={(e) => {
+            const query = e.target.value;
+            console.log(query.toLowerCase());
+            if (query === "") {
+              setResults([]);
+            } else {
+              setResults(
+                searchData.filter(
+                  (file) =>
+                    (file.title && file.title.toLowerCase().includes(query)) ||
+                    (file.description &&
+                      file.description.toLowerCase().includes(query))
+                )
+              );
+            }
+          }}
         />
       </Center>
       <br />
       <Center>
-        <SearchResults data={searchData} />
+        <SearchResults data={results} />
       </Center>
     </Box>
   );

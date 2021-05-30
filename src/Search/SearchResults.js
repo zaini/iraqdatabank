@@ -7,7 +7,7 @@ const SearchResults = ({ data }) => {
     <Box w="100%">
       {data.map((e, i) => {
         return (
-          <Box mb="12px">
+          <Box mb="12px" key={i}>
             <SearchResult result={e} />
           </Box>
         );
