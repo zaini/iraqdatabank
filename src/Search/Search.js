@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Input, Search } from "semantic-ui-react";
+import { Input } from "semantic-ui-react";
 import en_data from "../en_data";
 import ar_data from "../ar_data";
 import SearchResults from "./SearchResults";
@@ -51,7 +51,7 @@ const DataViewer = () => {
           style={{ width: "25rem" }}
           onChange={(e) => {
             const query = e.target.value;
-            console.log(query.toLowerCase());
+
             if (query === "") {
               setResults([]);
             } else {
