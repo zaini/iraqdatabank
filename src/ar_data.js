@@ -329,6 +329,16 @@ const data = [
         en_source: "http://iraqdtm.iom.int/",
         ar_source: "http://iraqdtm.iom.int/Arabic,",
       },
+           {
+        topic: "تقارير البنك الدولي",
+        files: [
+          {
+            title: "مراجعة الانفاق العام لقطاعات التنمية البشرية في العراق (حزيران ٢٠٢١)",
+            en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
+          },
+    ],
+  },
+  ],
     ],
   },
   {
