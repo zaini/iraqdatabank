@@ -331,6 +331,13 @@ const data = [
         en_source: "http://iraqdtm.iom.int/",
         ar_source: "http://iraqdtm.iom.int/Arabic,",
       },
+      {
+        topic: "World Bank reports",
+        files: [
+          {
+            title: "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
+            en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
+          },
     ],
   },
   {
