@@ -340,6 +340,8 @@ const data = [
           },
     ],
   },
+  ],
+  },
   {
     topic: "Elections",
     files: [
@@ -349,7 +351,7 @@ const data = [
       },
       ],
   },
-    ],
+  ],
   },
   {
     topic: "Statistics and Indicators",
