@@ -135,7 +135,8 @@ const data = [
     files: [
       {
         topic: "Annual Federal Budget Laws",
-        description: "Note that federal budgets were not approved in 2014 and 2020.", 
+        description:
+          "Note that federal budgets were not approved in 2014 and 2020.",
         files: [
           {
             title: "Federal Budget 2021 (with Annexes)",
@@ -335,12 +336,14 @@ const data = [
         topic: "World Bank reports",
         files: [
           {
-            title: "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
-            en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
+            title:
+              "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
+            en_source:
+              "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
+        ],
+      },
     ],
-  },
-  ],
   },
   {
     topic: "Elections",
@@ -349,9 +352,7 @@ const data = [
         title: "Independent High Electoral Commission (IHEC)",
         ar_source: "http://www.ihec.iq/",
       },
-      ],
-  },
-  ],
+    ],
   },
   {
     topic: "Statistics and Indicators",
@@ -372,4 +373,5 @@ const data = [
     ],
   },
 ];
+
 export default data;
