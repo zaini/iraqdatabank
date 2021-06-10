@@ -19,7 +19,8 @@ const data = [
       },
       {
         title: "Government Performance Report 2021",
-        ar_source: "https://drive.google.com/file/d/1idNnbPPv_3dii0re-khDZHNlFDuck6C5/view",
+        ar_source:
+          "https://drive.google.com/file/d/1idNnbPPv_3dii0re-khDZHNlFDuck6C5/view",
       },
       {
         topic: "Local government",
