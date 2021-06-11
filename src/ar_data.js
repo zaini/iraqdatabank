@@ -17,7 +17,7 @@ const data = [
       },
       {
         title: "تقرير الاداء الحكومي ٢٠٢١",
-        ar_souce:
+        ar_source:
           "https://drive.google.com/file/d/1idNnbPPv_3dii0re-khDZHNlFDuck6C5/view",
       },
       {
