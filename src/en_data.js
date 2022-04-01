@@ -305,7 +305,7 @@ const data = [
               "https://drive.google.com/file/d/1wDseusYfMRYW6b3sBHyv5uY4GanHXNGK/view?usp=sharing",
           },
           {
-            title: "White Paper Impelementation Plan 2021",
+            title: "White Paper Implementation Plan 2021",
             en_source:
               "https://drive.google.com/file/d/1RVb-h8r6iBWM7bIPBgAD1rOygGG_8P0m/view?usp=sharing",
             ar_source:
@@ -315,6 +315,16 @@ const data = [
             title: "White Paper 2020 Summary",
             en_source:
               "https://drive.google.com/file/d/1ZhSRiM3BC-6HqQtVKNjIPnWg8WL7Qkx_/view?usp=sharing",
+          },
+        ],
+      },
+      {
+        topic: "Public Sector Administrative Reform",
+        files: [
+          {
+            title: "Administrative Reform Strategy 2021",
+            ar_source:
+              "https://drive.google.com/file/d/102GpzsDihhuFcR8xvvjewfXIEOKb9RDq/view?usp=sharing",
           },
         ],
       },
@@ -371,6 +381,12 @@ const data = [
               "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
+      },
+      {
+        title: "A Diagnostic of the Informal Economy of Iraq (2021)",
+        en_source: "https://iraq.un.org/en/download/89966/160607",
+        ar_source: "https://iraq.un.org/en/download/89967/160607",
+        description: "Jointly published by UNDP, EU, ILO, UN Women",
       },
     ],
   },
