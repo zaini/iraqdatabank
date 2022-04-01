@@ -292,6 +292,35 @@ const data = [
     topic: "التنمية الاقتصادية والاجتماعية",
     files: [
       {
+        topic: "الورقة البيضاء للاصلاحات المالية",
+        files: [
+          {
+            title: "تقرير الورقة البيضاء ٢٠٢٠",
+            en_source:
+              "https://drive.google.com/file/d/1mdnNi5Arf_7j_pbmPdVc2hO2Z-AOOmdw/view?usp=sharing",
+            ar_source:
+              "https://drive.google.com/file/d/1wDseusYfMRYW6b3sBHyv5uY4GanHXNGK/view?usp=sharing",
+          },
+          {
+            title: "خطة تنفيذ الورقة البيضاء ٢٠٢١",
+            en_source:
+              "https://drive.google.com/file/d/1RVb-h8r6iBWM7bIPBgAD1rOygGG_8P0m/view?usp=sharing",
+            ar_source:
+              "https://drive.google.com/file/d/19FrToYtdZBojxZaebEFjedJwC26L0LRn/view?usp=sharing",
+          },     
+        ],
+      },
+      {
+        topic: "الاصلاح الاداري في القطاع العام",
+        files: [
+          {
+            title: "استراتيجية الاصلاح الاداري في الدوائر الحكومية في العراق ٢٠٢١",
+            ar_source:
+              "https://drive.google.com/file/d/102GpzsDihhuFcR8xvvjewfXIEOKb9RDq/view?usp=sharing",
+          },
+        ],
+      },
+      {
         topic: "تطوير القطاع الخاص",
         files: [
           {
@@ -344,6 +373,12 @@ const data = [
               "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
+      },
+      {
+        title: "تشخيص االقتصاد غير المنظم في العراق ٢٠٢١",
+        en_source: "https://iraq.un.org/en/download/89966/160607",
+        ar_source: "https://iraq.un.org/en/download/89967/160607",
+        description: "شـارك فـي إصـدار هـذا المنشـور كل ًُ مـن منظمـة العمـل الدوليـة، وبرنامـج األمـم المتحـدة اإلنمائـي، وهيئـة األمـم المتحـدة للمـرأة، والمنظمـة الدوليـة للهجـرة",
       },
     ],
   },
