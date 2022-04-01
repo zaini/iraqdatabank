@@ -330,6 +330,18 @@ const data = [
             ar_source:
               "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
           },
+          {
+            title: "تشخيص الاقتصاد غير المنظم في العراق ٢٠٢١",
+            en_source: "https://iraq.un.org/en/download/89966/160607",
+            ar_source: "https://iraq.un.org/en/download/89967/160607",
+            description: "شـارك فـي إصـدار هـذا المنشـور كل ًُ مـن منظمـة العمـل الدوليـة، وبرنامـج األمـم المتحـدة اإلنمائـي، وهيئـة األمـم المتحـدة للمـرأة، والمنظمـة الدوليـة للهجـرة",
+          },
+          {
+            title: "دراسة المؤسسات الصغرى والصغيرة والمتوسطة في محافظات بغداد ونينوى والبصرة ٢٠٢٠",
+            en_source: "https://www.iq.undp.org/content/dam/iraq/docs/UNDP_IQ_MSME_Survey_Final_Report_EN.pdf",
+            ar_source: "https://www.iq.undp.org/content/dam/iraq/docs/UNDP_IQ_MSME_Survey_Final_Report_AR.pdf",
+            description: "وزارة التخطيط-الجهاز المركزي للاحصاء بالشراكة مع برنامج الامم المتحدة الانمائي",
+         },
         ],
       },
       {
@@ -373,12 +385,6 @@ const data = [
               "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
-      },
-      {
-        title: "تشخيص االقتصاد غير المنظم في العراق ٢٠٢١",
-        en_source: "https://iraq.un.org/en/download/89966/160607",
-        ar_source: "https://iraq.un.org/en/download/89967/160607",
-        description: "شـارك فـي إصـدار هـذا المنشـور كل ًُ مـن منظمـة العمـل الدوليـة، وبرنامـج األمـم المتحـدة اإلنمائـي، وهيئـة األمـم المتحـدة للمـرأة، والمنظمـة الدوليـة للهجـرة",
       },
     ],
   },
