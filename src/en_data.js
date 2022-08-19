@@ -394,6 +394,11 @@ const data = [
           },
         ],
       },
+      {
+        title: "ILO: Building Iraq's Social Protection Floor",
+        en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
+        ar_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor%20Arbaic.pdf",
+      },
     ],
   },
   {
