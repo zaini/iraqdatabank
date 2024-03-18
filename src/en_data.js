@@ -1,11 +1,11 @@
 const data = [
   {
     topic: "Executive Branch",
-    description: "",
+    description: "Includes important government decisions, policy priorities, and national strategies.",
     files: [
       {
         title: "Council of Ministers resolutions",
-        ar_source: "http://www.cabinet.iq/ArticlesBrowse.aspx?CatID=6/",
+        ar_source: "https://www.cabinet.iq/ar/category/decisions",
         description: "",
       },
       {
@@ -141,7 +141,7 @@ const data = [
       {
         topic: "Annual Federal Budget Laws",
         description:
-          "Note that federal budgets were not approved in 2014 and 2020.",
+          "Note that federal budgets were not approved in 2014, 2020, and 2022.",
         files: [
           {
             title: "Federal Budget 2023-25 (with Annexes)",
