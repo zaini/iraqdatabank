@@ -5,6 +5,7 @@ const data = [
     files: [
       {
         title: "Council of Ministers resolutions",
+        en_source: "https://www.cabinet.iq/en/category/decisions",
         ar_source: "https://www.cabinet.iq/ar/category/decisions",
         description: "",
       },
@@ -14,13 +15,20 @@ const data = [
         ar_source: "https://pmo.iq/press.htm/",
       },
       {
-        title: "Government Agenda 2020",
-        ar_source: "https://pmo.iq/press2020/6-5-202002.htm/",
+        title: "Government daily activities report",
+        description: "Detailed overview of activities across state institutions.",
+        ar_source: "https://www.cabinet.iq/ar/category/activities",
       },
       {
-        title: "Government Performance Report 2021",
-        ar_source:
-          "https://drive.google.com/file/d/1idNnbPPv_3dii0re-khDZHNlFDuck6C5/view",
+        title: "Sudani government mandate",
+        description: "Outlines the government's formal policy priorities, known as al-minhaj al-wizari.",
+        ar_source: "https://pmo.iq/?page=6",
+      },
+      {
+        title: "Ur Government Digial Services Portal",
+        description: "Online government portal for digital services.",
+        en_source: "https://ur.gov.iq/#",
+        ar_source: "https://ur.gov.iq/",
       },
       {
         topic: "Local government",
@@ -33,32 +41,14 @@ const data = [
               "https://arb.parliament.iq/archive/2008/11/03/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B8%D9%85%D8%A9-%D9%81%D9%8A-%D8%A7%D9%82%D9%84%D9%8A%D9%85/",
           },
         ],
-      },
-      {
-        topic: "Archives",
-        files: [
-          {
-            title: "Strategic Priorities for Ministerial Plans 2014-2018",
-            en_source: "http://google.com/",
-            ar_source: "http://google.fr/",
-          },
-          {
-            title: "Government Agenda 2014-2018",
-            ar_source: "http://pmo.iq/pdf/3.pdf",
-          },
-          {
-            title: "Political Agreement between Political Blocs 2014",
-            ar_source: "http://pmo.iq/pdf/4.pdf",
-          },
-        ],
-      },
+      },      
     ],
   },
   {
     topic: "Legislative Branch",
     files: [
       {
-        title: "Council of Representatives",
+        title: "Council of Representatives website",
         ar_source: "http://parliament.iq",
       },
       {
@@ -411,6 +401,15 @@ const data = [
       {
         title: "Independent High Electoral Commission (IHEC)",
         ar_source: "http://www.ihec.iq/",
+      },
+    ],
+  },
+  {
+    topic: "Civil Society",
+    files: [
+      {
+        title: "List of registered NGOs in Iraq",
+        ar_source: "https://www.ngoao.gov.iq/uploads/articles/2024/1/ngo%20list%20till%2014.01.2024.pdf",
       },
     ],
   },
