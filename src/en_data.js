@@ -34,11 +34,10 @@ const data = [
         topic: "Local government",
         files: [
           {
-            title: "Law of Provinces Not Associated to Regions (2008)",
+            title: "Law of Provinces Not Associated to Regions (third amendment 2018)",
             description: "Law that defines provincial powers, local government formation, and decentralization",
-            en_source: "http://gjpi.org/wp-content/uploads/2009/01/cor_law_governorates_not_part_regions_en.pdf/",
-            ar_source:
-              "https://arb.parliament.iq/archive/2008/11/03/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B8%D9%85%D8%A9-%D9%81%D9%8A-%D8%A7%D9%82%D9%84%D9%8A%D9%85/",
+            en_source: "https://drive.google.com/file/d/12dphdHH0UJk8O1DkgoP4E4EhUs7LYIX3/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1Meh7tFDKUpTe_dsnplG5pt-pJmdfKSwb/view?usp=sharing",
           },
         ],
       },
@@ -47,13 +46,11 @@ const data = [
         files: [
           {
             title: "Abdul Mahdi government annual performance report 2019",
-            en_source: "https://iraqdatabank.org",
-            ar_source: "https://iraqdatabank.org",
+            ar_source: "https://drive.google.com/file/d/1VvKCZgSBNCYNbF33qEs4pQJktRRn8i0O/view?usp=sharing",
           },
           {
-            title: "Kadhimi government annual performance report 2021",
-            en_source: "https://iraqdatabank.org",
-            ar_source: "https://iraqdatabank.org",
+            title: "Kadhimi government annual performance report 2021",            
+            ar_source: "https://drive.google.com/file/d/1RUbD0sBsO03F9U7NwIu7NS5Inzd596uf/view?usp=sharing",
           },
         ],
       },
@@ -110,6 +107,10 @@ const data = [
       {
         topic: "Commission of Integrity",
         files: [
+          {
+            title: "Anti-Corruption Strategy 2021-2024",
+            ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
+          },
           {
             title: "Anti-Corruption Strategy 2016-2020",
             ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
@@ -320,20 +321,23 @@ const data = [
     topic: "Energy",
     files: [
       {
-        title: "Monthly Iraq crude exports",
+        title: "Latest monthly Iraq crude exports",        
+        en_source: "https://somooil.gov.iq/posts/view/30",
+        ar_source: "https://somooil.gov.iq/posts/view/30",
+      },
+      {
+        title: "2023 annual Iraq crude exports",
         description: "Figures to not include KRG independent exports.",
-        en_source: "https://somooil.gov.iq/exports",
-        ar_source: "https://somooil.gov.iq/exports",
+        en_source: "https://somooil.gov.iq/storage/gfvMkh0RlOA0hVtfCDMBVyJbgxLROytcxnI24BP0.xlsx",
+        ar_source: "https://somooil.gov.iq/storage/gfvMkh0RlOA0hVtfCDMBVyJbgxLROytcxnI24BP0.xlsx",
       },
       {
         topic: "Extractive Industries Transparency Initiative",
         files: [
           {
-            title: "Iraq EITI Report 2018 (published March 2021)",
+            title: "Iraq EITI Report 2021 (published December 2023)",
             en_source:
-              "https://eiti.org/files/documents/iraq_2018_eiti_report_en.pdf",
-            ar_source:
-              "https://eiti.org/files/documents/iraq_2018_eiti_report_ar.pdf",
+              "https://eiti.org/sites/default/files/2024-01/Iraq%202021%20EITI%20Report.pdf",            
           },
         ],
       },
@@ -471,6 +475,22 @@ const data = [
       {
         title: "Independent High Electoral Commission (IHEC)",
         ar_source: "http://www.ihec.iq/",
+      },
+      {
+        title: "Parliamentary and Provincial Council Elections Law (2023)",
+        ar_source: "http://www.ihec.iq/",
+      },
+      {
+        title: "2023 Provincial Council Election results",
+        ar_source: "https://ihec.iq/29239-2/",
+      },
+      {
+        title: "2023 Provincial Council Election monitoring report",
+        ar_source: "https://ihec.iq/29239-2/",
+      },
+      {
+        title: "2021 Council of Representatives Election results",
+        ar_source: "https://ihec.iq/result2021/",
       },
     ],
   },
