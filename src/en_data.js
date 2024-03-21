@@ -435,12 +435,28 @@ const data = [
         topic: "World Bank reports",
         files: [
           {
-            title:
-              "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
-            en_source:
-              "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
+            title: "Iraq Private Sector Fund policy note (October 2023)",
+            en_source: "http://documents1.worldbank.org/curated/en/099101123081578958/pdf/P17117500c6c18070867c06a96625eebaa.pdf",
+          },
+          {
+            title: "The Effects of Fiscal Policy on Inequality and Poverty in Iraq (October 2023)",
+            en_source: "http://documents1.worldbank.org/curated/en/099756510102321216/pdf/IDU0e287b0b90c36804788085bf0a11c7abd8ae4.pdf",
+          },
+          {
+            title: "Iraq Country Climate and Development Report (December 2022)",
+            en_source: "http://documents1.worldbank.org/curated/en/099005012092241290/pdf/P1776390cfceae0d908ff8073b7e041bea6.pdf",
+            ar_source: "http://documents1.worldbank.org/curated/en/099725011152218218/pdf/P177639122730b481445a14e0019631158ac78c5972b.pdf",
+          },
+          {
+            title: "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
+            en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
+      },
+      {
+        title: "A National School Infrastructure Policy for Iraq",
+        en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
+        ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
       },
       {
         title: "ILO: Building Iraq's Social Protection Floor",
@@ -470,6 +486,10 @@ const data = [
   {
     topic: "Statistics and Indicators",
     files: [
+      {
+        title: "Macro Poverty Outlook for Iraq (April 2023)",
+        en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",        
+      },
       {
         title: "Annual Statistical Abstract 2018-19",
         en_source: "http://cosit.gov.iq/ar/2018-2019",
