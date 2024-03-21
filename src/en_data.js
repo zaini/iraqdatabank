@@ -224,28 +224,53 @@ const data = [
         topic: "Central Bank of Iraq",
         files: [
           {
+            title: "Economic and statistical data",
+            en_source: "https://cbiraq.org/",
+            ar_source: "https://cbiraq.org/",
+          },
+          {
+            title: "Monetary and financial stability data",
+            en_source: "https://cbi.iq/page/122",
+            ar_source: "https://cbi.iq/page/122",
+          },
+          {
             title: "Key financial indicators",
             en_source: "https://cbi.iq/news/view/94",
             ar_source: "https://cbi.iq/news/view/94",
           },
           {
+            topic: "Annual financial statements",
+            files: [
+              {
+                title: "Archive 2016-2022",
+                en_source: "https://cbi.iq/page/76",
+                ar_source: "https://cbi.iq/page/76", 
+              },
+              {
+                title: "Archive 2005-2015",
+                en_source: "https://cbi.iq/page/75",
+                ar_source: "https://cbi.iq/page/75", 
+              },
+              {
+                title: "2022 annual financial statement",
+                en_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
+                ar_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",  
+              },              
+            ],
+          },
+          {
             topic: "Statements of Financial Position",
             files: [
               {
-                title: "Statement of Financial Position (March 2021)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-16193397474110.pdf",
+                title: "Archive 2017-2023",
+                en_source: "https://cbi.iq/page/73",
+                ar_source: "https://cbi.iq/page/73", 
               },
               {
-                title: "Statement of Financial Position (February 2021)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-161692948015696.pdf",
-              },
-              {
-                title: "Statement of Financial Position (January 2021)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-161545360093508.pdf",
-              },
+                title: "Statement of Financial Position (November 2023)",
+                en_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
+                ar_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",  
+              },              
             ],
           },
         ],
