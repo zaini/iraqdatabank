@@ -224,6 +224,11 @@ const data = [
         topic: "Central Bank of Iraq",
         files: [
           {
+            title: "Key financial indicators",
+            en_source: "https://cbi.iq/news/view/94",
+            ar_source: "https://cbi.iq/news/view/94",
+          },
+          {
             topic: "Statements of Financial Position",
             files: [
               {
