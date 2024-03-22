@@ -70,16 +70,19 @@ const data = [
       {
         title: "Iraqi Constitution",
         en_source:
-          "http://zaidalali.bookswarm.co.uk/wp-content/uploads/2014/03/Iraqs-constitution-unofficial-translation.docx",
+          "https://drive.google.com/file/d/12aiA2kv0v7n0T6sM71fbdZlEGW4AHNAR/view?usp=sharing",
         ar_source:
           "http://parliament.iq/wp-content/uploads/2017/01/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.pdf",
       },
       {
-        title: "Legal Glossary of Terms",
-        en_source:
-          "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
+        title: "Council of Representatives Law 2018",        
         ar_source:
-          "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
+          "https://drive.google.com/file/d/1PATGZxYJ_HdX_6jbQi7mrnGU-8qD0_NM/view?usp=sharing",
+      },
+      {
+        title: "Council of Representatives Internal Bylaws",        
+        ar_source:
+          "https://drive.google.com/file/d/1ieUu5EuQQ0Q-Fsc-utTQRZNmLgnGT4-O/view?usp=sharing",
       },
     ],
   },
@@ -109,7 +112,7 @@ const data = [
         files: [
           {
             title: "Anti-Corruption Strategy 2021-2024",
-            ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
+            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
           },
           {
             title: "Anti-Corruption Strategy 2016-2020",
@@ -217,8 +220,69 @@ const data = [
         ],
       },
       {
+        topic: "End of year actual spending reports",
+        description: "Actual spending figures for December each year",         
+        files: [
+          {
+            title: "2023 actual spending report",
+            ar_source: "https://drive.google.com/file/d/1jrZN1EjoOy4QbXXW1QggvjIX0IHVAbpU/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1jrZN1EjoOy4QbXXW1QggvjIX0IHVAbpU/view?usp=sharing",
+          },
+          {
+            title: "2022 actual spending report",
+            ar_source: "https://drive.google.com/file/d/1ETWvOA4RSMN4CYLdoDcRVqXNaUr66BYH/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1ETWvOA4RSMN4CYLdoDcRVqXNaUr66BYH/view?usp=sharing",
+          },
+          {
+            title: "2021 actual spending report",
+            ar_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
+          },
+           {
+            title: "2020 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+           {
+            title: "2019 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2018 actual spending report (until November)",
+            ar_source: "https://docs.google.com/spreadsheets/d/1gfR6RCS5uC67GFiYXkUs_xlDWfq72rrv/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1gfR6RCS5uC67GFiYXkUs_xlDWfq72rrv/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2017 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1Nb33c_-JGPdVCaRl3jzVb2NyVU9Fn5hm/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1Nb33c_-JGPdVCaRl3jzVb2NyVU9Fn5hm/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2016 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1B3iA0one2J6T4IA8HYAADbdtY_s7hdQS/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1B3iA0one2J6T4IA8HYAADbdtY_s7hdQS/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2015 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1dgc6oem0PHs-fyd7ZCj5xxHPPI7FLLKI/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1dgc6oem0PHs-fyd7ZCj5xxHPPI7FLLKI/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+        ],
+      },
+      {
+        title: "Emergency Food Security Law 2022",
+        ar_source: "https://drive.google.com/file/d/1os4GSFXG5TzhyT3fbOuU8NpSAdjWkQYC/view?usp=sharing",        
+      },
+      {
+        title: "Financial Management Law 2019",
+        en_source: "https://drive.google.com/file/d/1131Hyw_IdX50ivYq2lspxnzZxo0TJjIl/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1TLucZFv9CgxxHii8a6JEQZ0FP0m8S3fG/view?usp=sharing",
+      },
+      {
         title: "IMF Technical Assistance Report on Government Finance Statistics 2023",
-        en_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx",        
+        en_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx",
+        ar_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx", 
       },
     ],
   },
@@ -347,26 +411,35 @@ const data = [
     topic: "Economic and Social Development",
     files: [
       {
+        title: "Iraq Vision 2030 strategy",        
+        ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
+      },
+      {
+        title: "Iraq National Development Plan 2018-22",
+        en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
+      },
+      {
+        title: "National Compact for Population Policy",        
+        ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
+      },
+      {
         topic: "White Paper on Financial Reforms 2020/21",
         files: [
           {
             title: "White Paper Report 2020",
             en_source:
-              "https://drive.google.com/file/d/1mdnNi5Arf_7j_pbmPdVc2hO2Z-AOOmdw/view?usp=sharing",
+              "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
             ar_source:
-              "https://drive.google.com/file/d/1wDseusYfMRYW6b3sBHyv5uY4GanHXNGK/view?usp=sharing",
+              "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
           },
           {
-            title: "White Paper Implementation Plan 2021",
-            en_source:
-              "https://drive.google.com/file/d/1RVb-h8r6iBWM7bIPBgAD1rOygGG_8P0m/view?usp=sharing",
-            ar_source:
-              "https://drive.google.com/file/d/19FrToYtdZBojxZaebEFjedJwC26L0LRn/view?usp=sharing",
+            title: "White Paper Implementation Plan 2021",         
+            ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
           },
           {
             title: "White Paper 2020 Summary",
-            en_source:
-              "https://drive.google.com/file/d/1ZhSRiM3BC-6HqQtVKNjIPnWg8WL7Qkx_/view?usp=sharing",
+            en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
           },
         ],
       },
@@ -375,8 +448,8 @@ const data = [
         files: [
           {
             title: "Administrative Reform Strategy 2021",
-            ar_source:
-              "https://drive.google.com/file/d/102GpzsDihhuFcR8xvvjewfXIEOKb9RDq/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
           },
         ],
       },
@@ -403,6 +476,15 @@ const data = [
             description: "Published by Ministry of Planning’s Central Statistical Organization (CSO) in partnership with UNDP",
          },
         ],
+      },
+      {
+        title: "Poverty Reduction Strategy 2018-22",        
+        ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
+      },
+      {
+        title: "Combatting Violent Extremism National Plan 2019",
+        en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
       },
       {
         topic: "National Investment Commission",
@@ -433,7 +515,7 @@ const data = [
       {
         title: "IOM Displacement Tracking Matrix",
         en_source: "http://iraqdtm.iom.int/",
-        ar_source: "http://iraqdtm.iom.int/Arabic,",
+        ar_source: "https://iraqdtm.iom.int/Arabic",
       },
       {
         topic: "World Bank reports",
@@ -458,12 +540,12 @@ const data = [
         ],
       },
       {
-        title: "A National School Infrastructure Policy for Iraq",
+        title: "A National School Infrastructure Policy for Iraq 2023",
         en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
         ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
       },
       {
-        title: "ILO: Building Iraq's Social Protection Floor",
+        title: "ILO: Building Iraq's Social Protection Floor 2022",
         en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
         ar_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor%20Arbaic.pdf",
       },
@@ -511,8 +593,15 @@ const data = [
         en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",        
       },
       {
-        title: "Annual Statistical Abstract 2018-19",
-        en_source: "http://cosit.gov.iq/ar/2018-2019",
+        title: "Annual Statistical Abstract 2022-23",        
+        ar_source: "https://cosit.gov.iq/ar/?option=com_content&view=article&layout=edit&id=1470",
+      },
+      {
+        title: "Provincial level statistical summary 2022",        
+        ar_source: "https://www.cosit.gov.iq/StatisticalAbstract-2022/StatisticalAbstract.html",
+      },
+      {
+        title: "Annual Statistical Abstract 2018-19",        
         ar_source: "http://cosit.gov.iq/ar/2018-2019",
       },
       {
