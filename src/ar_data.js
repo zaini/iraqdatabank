@@ -49,15 +49,14 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1VvKCZgSBNCYNbF33qEs4pQJktRRn8i0O/view?usp=sharing",
           },
           {
-            title: "تقرير أداء حكومة الكاظمي السنوي 2021",            
+            title: "تقرير أداء حكومة الكاظمي السنوي 2021",
             ar_source: "https://drive.google.com/file/d/1RUbD0sBsO03F9U7NwIu7NS5Inzd596uf/view?usp=sharing",
           },
         ],
       },
     ],
   },
-];
-{
+  {
     topic: "السلطة التشريعية",
     files: [
       {
@@ -150,7 +149,7 @@ const data = [
       },
     ],
   },
-{
+  {
     topic: "الموازنات والمالية",
     files: [
       {
@@ -244,12 +243,12 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
             en_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
           },
-           {
+          {
             title: "تقرير الإنفاق الفعلي لعام 2020",
             ar_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
             en_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
           },
-           {
+          {
             title: "تقرير الإنفاق الفعلي لعام 2019",
             ar_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
             en_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
@@ -278,7 +277,7 @@ const data = [
       },
       {
         title: "قانون الأمن الغذائي الطارئ 2022",
-        ar_source: "https://drive.google.com/file/d/1os4GSFXG5TzhyT3fbOuU8NpSAdjWkQYC/view?usp=sharing",        
+        ar_source: "https://drive.google.com/file/d/1os4GSFXG5TzhyT3fbOuU8NpSAdjWkQYC/view?usp=sharing",
       },
       {
         title: "قانون إدارة المالية 2019",
@@ -288,11 +287,11 @@ const data = [
       {
         title: "تقرير المساعدة الفنية لصندوق النقد الدولي حول إحصاءات الحكومة المالية 2023",
         en_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx",
-        ar_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx", 
+        ar_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx",
       },
     ],
   },
-      {
+  {
     topic: "سياسة نقدية",
     files: [
       {
@@ -319,18 +318,18 @@ const data = [
               {
                 title: "أرشيف 2016-2022",
                 en_source: "https://cbi.iq/page/76",
-                ar_source: "https://cbi.iq/page/76", 
+                ar_source: "https://cbi.iq/page/76",
               },
               {
                 title: "أرشيف 2005-2015",
                 en_source: "https://cbi.iq/page/75",
-                ar_source: "https://cbi.iq/page/75", 
+                ar_source: "https://cbi.iq/page/75",
               },
               {
                 title: "البيان المالي السنوي لعام 2022",
                 en_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
-                ar_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",  
-              },              
+                ar_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
+              },
             ],
           },
           {
@@ -339,13 +338,13 @@ const data = [
               {
                 title: "أرشيف 2017-2023",
                 en_source: "https://cbi.iq/page/73",
-                ar_source: "https://cbi.iq/page/73", 
+                ar_source: "https://cbi.iq/page/73",
               },
               {
                 title: "بيان الموقف المالي (نوفمبر 2023)",
                 en_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
-                ar_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",  
-              },              
+                ar_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
+              },
             ],
           },
         ],
@@ -406,7 +405,7 @@ const data = [
         files: [
           {
             title: "تقرير مبادرة شفافية صناعات الاستخراج للعراق 2021 (نشر في ديسمبر 2023)",
-            en_source: "https://eiti.org/sites/default/files/2024-01/Iraq%202021%20EITI%20Report.pdf",            
+            en_source: "https://eiti.org/sites/default/files/2024-01/Iraq%202021%20EITI%20Report.pdf",
           },
         ],
       },
@@ -418,69 +417,69 @@ const data = [
       {
         topic: "الخطط الاستراتيجية الوطنية",
         files: [
-      {
-        title: "استراتيجية رؤية العراق 2030",        
-        ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
-      },
-      {
-        title: "خطة التنمية الوطنية للعراق 2018-22",
-        en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
-        ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
-      },
-      {
+          {
+            title: "استراتيجية رؤية العراق 2030",
+            ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
+          },
+          {
+            title: "خطة التنمية الوطنية للعراق 2018-22",
+            en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
+          },
+          {
             title: "استراتيجية مكافحة الفساد 2021-2024",
             ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
-      },
-      {
-        title: "العقد الوطني لسياسة السكان 2023",        
-        ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
-      },
-      {
+          },
+          {
+            title: "العقد الوطني لسياسة السكان 2023",
+            ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
+          },
+          {
             title: "استراتيجية تطوير القطاع الخاص 2014-2030",
             en_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
             ar_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
-      },    
-      {
-        title: "سياسة البنية التحتية المدرسية الوطنية للعراق 2023",
-        en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
-        ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
-      },
-      {
-        title: "استراتيجية تخفيف الفقر 2018-22",        
-        ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
-      },
-      {
+          },
+          {
+            title: "سياسة البنية التحتية المدرسية الوطنية للعراق 2023",
+            en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
+            ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
+          },
+          {
+            title: "استراتيجية تخفيف الفقر 2018-22",
+            ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
+          },
+          {
             title: "استراتيجية إصلاح الإدارة 2021",
             ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
             en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
-      },     
-      {
-        title: "خطة مكافحة التطرف العنيف الوطنية 2019",
-        en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
-        ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
-      },
-      {
-        topic: "الكتاب الأبيض حول الإصلاحات المالية 2020/21",
-        files: [
-          {
-            title: "تقرير الكتاب الأبيض 2020",
-            en_source:
-              "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
-            ar_source:
-              "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
           },
           {
-            title: "خطة تنفيذ الكتاب الأبيض 2021",         
-            ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
+            title: "خطة مكافحة التطرف العنيف الوطنية 2019",
+            en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
           },
           {
-            title: "ملخص الكتاب الأبيض 2020",
-            en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            topic: "الكتاب الأبيض حول الإصلاحات المالية 2020/21",
+            files: [
+              {
+                title: "تقرير الكتاب الأبيض 2020",
+                en_source:
+                  "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
+                ar_source:
+                  "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
+              },
+              {
+                title: "خطة تنفيذ الكتاب الأبيض 2021",
+                ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
+              },
+              {
+                title: "ملخص الكتاب الأبيض 2020",
+                en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+              },
+            ],
           },
         ],
-      },      
-      ],
-      },   
+      },
       {
         topic: "تطوير القطاع الخاص",
         files: [
@@ -496,13 +495,13 @@ const data = [
             en_source: "https://iraq.un.org/en/download/89966/160607",
             ar_source: "https://iraq.un.org/en/download/89967/160607",
             description: "نشر بالتعاون مع البرنامج الإنمائي للأمم المتحدة، الاتحاد الأوروبي، منظمة العمل الدولية، الأمم المتحدة للمرأة",
-         },
-         {
+          },
+          {
             title: "مسح الشركات الصغيرة والمتوسطة في العراق في بغداد، البصرة، نينوى (2020)",
             en_source: "https://www.iq.undp.org/content/dam/iraq/docs/UNDP_IQ_MSME_Survey_Final_Report_EN.pdf",
             ar_source: "https://www.iq.undp.org/content/dam/iraq/docs/UNDP_IQ_MSME_Survey_Final_Report_AR.pdf",
             description: "نشرته الهيئة المركزية للاحصاء في وزارة التخطيط بالشراكة مع البرنامج الإنمائي للأمم المتحدة",
-         },
+          },
         ],
       },
       {
@@ -557,7 +556,7 @@ const data = [
             en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
-      },      
+      },
       {
         title: "ILO: بناء أرضية حماية اجتماعية للعراق 2022",
         en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
@@ -604,18 +603,18 @@ const data = [
     files: [
       {
         title: "نظرة عامة على الفقر الماكروي للعراق (إبريل 2023)",
-        en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",        
+        en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",
       },
       {
-        title: "ملخص إحصائي سنوي 2022-23",        
+        title: "ملخص إحصائي سنوي 2022-23",
         ar_source: "https://cosit.gov.iq/ar/?option=com_content&view=article&layout=edit&id=1470",
       },
       {
-        title: "ملخص إحصائي على مستوى المحافظات 2022",        
+        title: "ملخص إحصائي على مستوى المحافظات 2022",
         ar_source: "https://www.cosit.gov.iq/StatisticalAbstract-2022/StatisticalAbstract.html",
       },
       {
-        title: "ملخص إحصائي سنوي 2018-19",        
+        title: "ملخص إحصائي سنوي 2018-19",
         ar_source: "http://cosit.gov.iq/ar/2018-2019",
       },
       {
