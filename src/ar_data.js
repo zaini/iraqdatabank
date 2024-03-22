@@ -1,62 +1,67 @@
 const data = [
   {
     topic: "السلطة التنفيذية",
+    description: "تشمل القرارات الحكومية الهامة وأولويات السياسات والاستراتيجيات الوطنية.",
     files: [
       {
         title: "قرارات مجلس الوزراء",
-        ar_source: "http://www.cabinet.iq/ArticlesBrowse.aspx?CatID=6/",
+        en_source: "https://www.cabinet.iq/en/category/decisions",
+        ar_source: "https://www.cabinet.iq/ar/category/decisions",
+        description: "",
       },
       {
-        title: "بيانات مكتب رئيس وزراء",
+        title: "بيانات مكتب رئيس الوزراء",
         en_source: "http://pmo.iq/pme/ipresse.htm/",
         ar_source: "https://pmo.iq/press.htm/",
       },
       {
-        title: "برنامج الحكومة ٢٠٢٠",
-        ar_source: "https://pmo.iq/press2020/6-5-202002.htm/",
+        title: "تقرير النشاطات اليومية للحكومة",
+        description: "نظرة مفصلة على الأنشطة في مؤسسات الدولة.",
+        ar_source: "https://www.cabinet.iq/ar/category/activities",
       },
       {
-        title: "تقرير الاداء الحكومي ٢٠٢١",
-        ar_source:
-          "https://drive.google.com/file/d/1idNnbPPv_3dii0re-khDZHNlFDuck6C5/view",
+        title: "وثيقة تفويض حكومة السودان",
+        description: "يحدد أولويات السياسات الرسمية للحكومة المعروفة باسم المنهج الوزاري.",
+        ar_source: "https://pmo.iq/?page=6",
       },
       {
-        topic: "الحكم المحلي",
+        title: "بوابة خدمات الحكومة الرقمية للعراق",
+        description: "بوابة حكومية عبر الإنترنت للخدمات الرقمية.",
+        en_source: "https://ur.gov.iq/#",
+        ar_source: "https://ur.gov.iq/",
+      },
+      {
+        topic: "الحكومة المحلية",
         files: [
           {
-            title: "قانون المحافظات غير المنتظمة في إقليم (٢٠٠٨)",
-            en_source:
-              "http://gjpi.org/wp-content/uploads/2009/01/cor_law_governorates_not_part_regions_en.pdf/",
-            ar_source:
-              "https://arb.parliament.iq/archive/2008/11/03/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B8%D9%85%D8%A9-%D9%81%D9%8A-%D8%A7%D9%82%D9%84%D9%8A%D9%85/",
+            title: "قانون المحافظات غير المنضوية في مناطق (التعديل الثالث 2018)",
+            description: "قانون يحدد صلاحيات المحافظات وتشكيل الحكومة المحلية واللامركزية.",
+            en_source: "https://drive.google.com/file/d/12dphdHH0UJk8O1DkgoP4E4EhUs7LYIX3/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1Meh7tFDKUpTe_dsnplG5pt-pJmdfKSwb/view?usp=sharing",
           },
         ],
       },
       {
-        topic: "أرشيف",
+        topic: "أرشيف الحكومات السابقة",
         files: [
           {
-            title: "الإطار العام لخطة الحكومة للفترة ٢٠١٤-٢٠١٨",
-            en_source: "http://google.com/",
-            ar_source: "http://google.fr/",
+            title: "تقرير أداء حكومة عبد المهدي السنوي 2019",
+            ar_source: "https://drive.google.com/file/d/1VvKCZgSBNCYNbF33qEs4pQJktRRn8i0O/view?usp=sharing",
           },
           {
-            title: "برنامج الحكومة للفترة ٢٠١٤-٢٠١٨",
-            ar_source: "http://pmo.iq/pdf/3.pdf",
-          },
-          {
-            title: "وثيقة الاتفاق السياسي بين الكتل السياسية ٢٠١٤",
-            ar_source: "http://pmo.iq/pdf/4.pdf",
+            title: "تقرير أداء حكومة الكاظمي السنوي 2021",            
+            ar_source: "https://drive.google.com/file/d/1RUbD0sBsO03F9U7NwIu7NS5Inzd596uf/view?usp=sharing",
           },
         ],
       },
     ],
   },
-  {
+];
+{
     topic: "السلطة التشريعية",
     files: [
       {
-        title: "مجلس النواب",
+        title: "موقع مجلس النواب",
         ar_source: "http://parliament.iq",
       },
       {
@@ -66,37 +71,41 @@ const data = [
       {
         title: "الدستور العراقي",
         en_source:
-          "http://zaidalali.bookswarm.co.uk/wp-content/uploads/2014/03/Iraqs-constitution-unofficial-translation.docx",
+          "https://drive.google.com/file/d/12aiA2kv0v7n0T6sM71fbdZlEGW4AHNAR/view?usp=sharing",
         ar_source:
-          "http://parliament.iq/wp-content/uploads/2017/01/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.pdf",
+          "https://drive.google.com/file/d/1Pc6CtpJSYzJGI-9-aooQxTdMhGwOMiRP/view?usp=sharing",
       },
       {
-        title: "دليل للمصطلحات القانونية",
-        en_source:
-          "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
+        title: "قانون مجلس النواب لعام 2018",
         ar_source:
-          "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
+          "https://drive.google.com/file/d/1PATGZxYJ_HdX_6jbQi7mrnGU-8qD0_NM/view?usp=sharing",
+      },
+      {
+        title: "النظام الداخلي لمجلس النواب",
+        ar_source:
+          "https://drive.google.com/file/d/1ieUu5EuQQ0Q-Fsc-utTQRZNmLgnGT4-O/view?usp=sharing",
       },
     ],
   },
   {
-    topic: "السلطة القضائية والرقابة",
+    topic: "الرقابة القضائية والقانونية",
     files: [
       {
-        title: "مجلس القضاء الاعلى",
-        ar_source: "http://www.iraqja.iq/",
+        title: "مجلس القضاء الأعلى",
+        ar_source: "https://www.sjc.iq/index-ar.php",
       },
       {
-        title: "المحكمة الاتحادية العليا",
+        title: "قرارات المحكمة الاتحادية العليا",
+        en_source: "https://www.iraqfsc.iq/Judgments-decisions-en.php",
         ar_source: "https://www.iraqfsc.iq/ethadai.php",
       },
       {
-        topic: "ديوان الرقابة المالية",
+        topic: "الهيئة الاتحادية للرقابة المالية",
         files: [
           {
-            title: "موقع ديوان الرقابة المالية",
-            en_source: "http://www.fbsa.gov.iq/en",
-            ar_source: "http://www.fbsa.gov.iq/",
+            title: "الصفحة الرئيسية للهيئة الاتحادية للرقابة المالية",
+            en_source: "https://fbsa.gov.iq/",
+            ar_source: "https://fbsa.gov.iq/",
           },
         ],
       },
@@ -104,26 +113,34 @@ const data = [
         topic: "هيئة النزاهة",
         files: [
           {
-            title: "استراتيجية مكافحة الفساد للفترة ٢٠١٦-٢٠٢٠",
-            ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
+            title: "الاستراتيجية الوطنية لمكافحة الفساد 2021-2024",
+            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
           },
           {
-            topic: "التقارير السنوية",
+            topic: "تقارير النزاهة السنوية",
             files: [
               {
-                title: "ملخص التقرير السنوي لعام ٢٠٢٠",
+                title: "تقرير النزاهة السنوي 2023",
+                ar_source: "https://drive.google.com/file/d/1chkkxrl1LsgaxC5yHiOo5y1znWaKv7MD/view?usp=sharing",
+              },
+              {
+                title: "تقرير النزاهة السنوي 2022",
+                ar_source: "https://drive.google.com/file/d/1EoDB_pcESiEKZoi4dORK4iTCw80-cmpt/view?usp=sharing",
+              },
+              {
+                title: "ملخص تقرير النزاهة السنوي 2020",
                 ar_source: "https://nazaha.iq/pdf_up/6265/MRep2020.pdf",
               },
               {
-                title: "التقرير السنوي لعام ٢٠١٩",
+                title: "تقرير النزاهة السنوي 2019",
                 ar_source: "https://nazaha.iq/pdf_up/5778/f_report_2019.pdf",
               },
               {
-                title: "التقرير السنوي لعام ٢٠١٦",
+                title: "تقرير النزاهة السنوي 2016",
                 ar_source: "http://www.nazaha.iq/pdf_up/3951/mlreportF2016.pdf",
               },
               {
-                title: "التقرير السنوي لعام ٢٠١٥",
+                title: "تقرير النزاهة السنوي 2015",
                 ar_source:
                   "http://www.nazaha.iq/body.asp?field=news_arabic&id=3563",
               },
@@ -133,156 +150,258 @@ const data = [
       },
     ],
   },
-  {
+{
     topic: "الموازنات والمالية",
     files: [
       {
-        topic: "قوانين الموازنة الاتحادية السنوية",
+        topic: "قوانين الموازنة السنوية الاتحادية",
+        description:
+          "يرجى ملاحظة أن الموازنات الاتحادية لم تتم الموافقة عليها في عام 2014 و 2020 و 2022.",
         files: [
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠٢١ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2023-25 (مع المرفقات)",
+            ar_source: "https://moj.gov.iq/upload/pdf/4726_72.pdf",
+          },
+          {
+            title: "الموازنة الاتحادية 2021 (مع المرفقات)",
             ar_source: "https://moj.gov.iq/uploaded/4625.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٩ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2019 (مع المرفقات)",
             ar_source: "https://moj.gov.iq/upload/pdf/4529.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٨ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2018 (مع المرفقات)",
             ar_source: "https://moj.gov.iq/upload/pdf/4485.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٧ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2017 (مع المرفقات)",
             ar_source: "http://moj.gov.iq/wqam/4430.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٦ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2016 (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4394.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٥ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2015 (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4352.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٣ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2013 (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4272.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٢ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2012 (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4233.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١١ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2011 (مع المرفقات)",
             ar_source: "http://www.moj.gov.iq/uploaded/4180.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠١٠ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2010 (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%85%D8%B5%D9%88%D8%AA%20%D8%B9%D9%84%D9%8A%D9%87%D8%A7.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠٠٩ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2009 (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202009.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠٠٨ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2008 (مع المرفقات)",
             ar_source:
-              "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D8%B3%D9%86%D8%A9%202008.pdf",
+              "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202008.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠٠٧ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2007 (مع المرفقات)",
             ar_source:
               "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202007.pdf",
           },
           {
-            title: "قانون الموازنة الاتحادية لعام ٢٠٠٦ (مع المرفقات)",
+            title: "الموازنة الاتحادية 2006 (مع المرفقات)",
             ar_source:
-              "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202006.pdf",
+              "http://www.mof.gov.iq/Documents/%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%A7%D9%84%D9%85%D9%88%D8%A7%D8%B2%D9%86%D8%A9%20%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF%D9%8A%D8%A9%20العامة%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9%20%20%D9%84%D9%84%D8%B3%D9%86%D8%A9%20%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A%D8%A9%202006.pdf",
           },
         ],
+      },
+      {
+        topic: "تقارير الإنفاق الفعلي لنهاية العام",
+        description: "الأرقام الفعلية للإنفاق في ديسمبر من كل عام",
+        files: [
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2023",
+            ar_source: "https://drive.google.com/file/d/1jrZN1EjoOy4QbXXW1QggvjIX0IHVAbpU/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1jrZN1EjoOy4QbXXW1QggvjIX0IHVAbpU/view?usp=sharing",
+          },
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2022",
+            ar_source: "https://drive.google.com/file/d/1ETWvOA4RSMN4CYLdoDcRVqXNaUr66BYH/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1ETWvOA4RSMN4CYLdoDcRVqXNaUr66BYH/view?usp=sharing",
+          },
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2021",
+            ar_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
+          },
+           {
+            title: "تقرير الإنفاق الفعلي لعام 2020",
+            ar_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+           {
+            title: "تقرير الإنفاق الفعلي لعام 2019",
+            ar_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2018 (حتى نوفمبر)",
+            ar_source: "https://docs.google.com/spreadsheets/d/1gfR6RCS5uC67GFiYXkUs_xlDWfq72rrv/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1gfR6RCS5uC67GFiYXkUs_xlDWfq72rrv/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2017",
+            ar_source: "https://docs.google.com/spreadsheets/d/1Nb33c_-JGPdVCaRl3jzVb2NyVU9Fn5hm/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1Nb33c_-JGPdVCaRl3jzVb2NyVU9Fn5hm/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2016",
+            ar_source: "https://docs.google.com/spreadsheets/d/1B3iA0one2J6T4IA8HYAADbdtY_s7hdQS/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1B3iA0one2J6T4IA8HYAADbdtY_s7hdQS/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "تقرير الإنفاق الفعلي لعام 2015",
+            ar_source: "https://docs.google.com/spreadsheets/d/1dgc6oem0PHs-fyd7ZCj5xxHPPI7FLLKI/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1dgc6oem0PHs-fyd7ZCj5xxHPPI7FLLKI/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+        ],
+      },
+      {
+        title: "قانون الأمن الغذائي الطارئ 2022",
+        ar_source: "https://drive.google.com/file/d/1os4GSFXG5TzhyT3fbOuU8NpSAdjWkQYC/view?usp=sharing",        
+      },
+      {
+        title: "قانون إدارة المالية 2019",
+        en_source: "https://drive.google.com/file/d/1131Hyw_IdX50ivYq2lspxnzZxo0TJjIl/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1TLucZFv9CgxxHii8a6JEQZ0FP0m8S3fG/view?usp=sharing",
+      },
+      {
+        title: "تقرير المساعدة الفنية لصندوق النقد الدولي حول إحصاءات الحكومة المالية 2023",
+        en_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx",
+        ar_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx", 
       },
     ],
   },
-  {
-    topic: "السياسة النقدية",
-    files: [
       {
-        topic: "البنك المركزي العراقي",
-        files: [
-          {
-            topic: "جداول الوضع المالي للبنك المركزي",
-            files: [
-              {
-                title: "جداول الوضع المالي (آذار ٢٠٢١)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-16193397474110.pdf",
-              },
-              {
-                title: "جداول الوضع المالي (شباظ ٢٠٢١)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-161692948015696.pdf",
-              },
-              {
-                title: "جداول الوضع المالي (كانون الثاني ٢٠٢١)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-161545360093508.pdf",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        topic: "البيانات المالية (إرنست ويونغ)",
-        files: [
-          {
-            title: "البيان المالي لعام ٢٠١٩",
-            ar_source:
-              "https://cbi.iq/static/uploads/up/file-159851680953542.pdf",
-          },
-          {
-            title: "البيان المالي لعام ٢٠١٨",
-            ar_source:
-              "https://cbi.iq/static/uploads/up/file-156040785775959.pdf",
-          },
-          {
-            title: "البيان المالي لعام ٢٠١٧",
-            ar_source:
-              "https://cbi.iq/static/uploads/up/file-152499442357779.pdf",
-          },
-        ],
-      },
-      {
-        topic: "صندوق النقد الدولي",
-        files: [
-          {
-            title: "مشاورات المادة الرابعة لعام ٢٠٢٠",
-            en_source:
-              "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx",
-            ar_source:
-              "https://www.imf.org/ar/News/Articles/2021/02/11/pr2137-iraq-imf-executive-board-concludes-2020-article-iv-consultation",
-          },
-        ],
-      },
-    ],
-  },
+    "موضوع": "السياسة النقدية",
+    "ملفات": [
+        {
+            "موضوع": "البنك المركزي العراقي",
+            "ملفات": [
+                {
+                    "العنوان": "البيانات الاقتصادية والإحصائية",
+                    "مصدر_الإنجليزية": "https://cbiraq.org/",
+                    "مصدر_العربية": "https://cbiraq.org/"
+                },
+                {
+                    "العنوان": "بيانات الاستقرار النقدي والمالي",
+                    "مصدر_الإنجليزية": "https://cbi.iq/page/122",
+                    "مصدر_العربية": "https://cbi.iq/page/122"
+                },
+                {
+                    "العنوان": "المؤشرات المالية الرئيسية",
+                    "مصدر_الإنجليزية": "https://cbi.iq/news/view/94",
+                    "مصدر_العربية": "https://cbi.iq/news/view/94"
+                },
+                {
+                    "موضوع": "البيانات المالية السنوية",
+                    "ملفات": [
+                        {
+                            "العنوان": "أرشيف 2016-2022",
+                            "مصدر_الإنجليزية": "https://cbi.iq/page/76",
+                            "مصدر_العربية": "https://cbi.iq/page/76"
+                        },
+                        {
+                            "العنوان": "أرشيف 2005-2015",
+                            "مصدر_الإنجليزية": "https://cbi.iq/page/75",
+                            "مصدر_العربية": "https://cbi.iq/page/75"
+                        },
+                        {
+                            "العنوان": "بيان المالية السنوي 2022",
+                            "مصدر_الإنجليزية": "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
+                            "مصدر_العربية": "https://cbi.iq/static/uploads/up/file-16864761369291.pdf"
+                        }
+                    ]
+                },
+                {
+                    "موضوع": "بيانات الموقف المالي",
+                    "ملفات": [
+                        {
+                            "العنوان": "أرشيف 2017-2023",
+                            "مصدر_الإنجليزية": "https://cbi.iq/page/73",
+                            "مصدر_العربية": "https://cbi.iq/page/73"
+                        },
+                        {
+                            "العنوان": "بيان الموقف المالي (نوفمبر 2023)",
+                            "مصدر_الإنجليزية": "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
+                            "مصدر_العربية": "https://cbi.iq/static/uploads/up/file-170832622082010.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "موضوع": "البيانات المالية (إرنست ويونغ)",
+            "ملفات": [
+                {
+                    "العنوان": "البيان المالي 2019",
+                    "مصدر": "https://cbi.iq/static/uploads/up/file-159851680953542.pdf"
+                },
+                {
+                    "العنوان": "البيان المالي 2018",
+                    "مصدر": "https://cbi.iq/static/uploads/up/file-156040785775959.pdf"
+                },
+                {
+                    "العنوان": "البيان المالي 2017",
+                    "مصدر": "https://cbi.iq/static/uploads/up/file-152499442357779.pdf"
+                }
+            ]
+        },
+        {
+            "موضوع": "صندوق النقد الدولي",
+            "ملفات": [
+                {
+                    "العنوان": "استشارة المادة الرابعة لعام 2022",
+                    "مصدر": "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023002.ashx"
+                },
+                {
+                    "العنوان": "استشارة المادة الرابعة لعام 2020",
+                    "مصدر": "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx"
+                }
+            ]
+        }
+    ]
+}
   {
     topic: "الطاقة",
     files: [
       {
-        title: "صادرات النفط الخام الشهرية",
-        en_source: "https://somooil.gov.iq/exports",
-        ar_source: "https://somooil.gov.iq/exports",
+        title: "أحدث تصدير شهري للنفط الخام العراقي",
+        en_source: "https://somooil.gov.iq/posts/view/30",
+        ar_source: "https://somooil.gov.iq/posts/view/30",
       },
       {
-        topic: "مبادرة الشفافية للصناعات الاستخراجية",
+        title: "تصدير النفط الخام العراقي السنوي لعام 2023",
+        description: "الأرقام لا تتضمن تصديرات إقليم كردستان المستقلة.",
+        en_source: "https://somooil.gov.iq/storage/gfvMkh0RlOA0hVtfCDMBVyJbgxLROytcxnI24BP0.xlsx",
+        ar_source: "https://somooil.gov.iq/storage/gfvMkh0RlOA0hVtfCDMBVyJbgxLROytcxnI24BP0.xlsx",
+      },
+      {
+        topic: "مبادرة شفافية صناعات الاستخراج",
         files: [
           {
-            title: "تقرير المبادرة للعراق لعام ٢٠١٨ (آذار عام ٢٠٢١)",
-            en_source:
-              "https://eiti.org/files/documents/iraq_2018_eiti_report_en.pdf",
-            ar_source:
-              "https://eiti.org/files/documents/iraq_2018_eiti_report_ar.pdf",
+            title: "تقرير مبادرة شفافية صناعات الاستخراج للعراق 2021 (نشر في ديسمبر 2023)",
+            en_source: "https://eiti.org/sites/default/files/2024-01/Iraq%202021%20EITI%20Report.pdf",            
           },
         ],
       },
@@ -292,133 +411,219 @@ const data = [
     topic: "التنمية الاقتصادية والاجتماعية",
     files: [
       {
-        topic: "الورقة البيضاء للاصلاحات المالية",
+        topic: "الخطط الاستراتيجية الوطنية",
         files: [
-          {
-            title: "تقرير الورقة البيضاء ٢٠٢٠",
-            en_source:
-              "https://drive.google.com/file/d/1mdnNi5Arf_7j_pbmPdVc2hO2Z-AOOmdw/view?usp=sharing",
-            ar_source:
-              "https://drive.google.com/file/d/1wDseusYfMRYW6b3sBHyv5uY4GanHXNGK/view?usp=sharing",
-          },
-          {
-            title: "خطة تنفيذ الورقة البيضاء ٢٠٢١",
-            en_source:
-              "https://drive.google.com/file/d/1RVb-h8r6iBWM7bIPBgAD1rOygGG_8P0m/view?usp=sharing",
-            ar_source:
-              "https://drive.google.com/file/d/19FrToYtdZBojxZaebEFjedJwC26L0LRn/view?usp=sharing",
-          },     
-        ],
+      {
+        title: "استراتيجية رؤية العراق 2030",        
+        ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
       },
       {
-        topic: "الاصلاح الاداري في القطاع العام",
+        title: "خطة التنمية الوطنية للعراق 2018-22",
+        en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
+      },
+      {
+            title: "استراتيجية مكافحة الفساد 2021-2024",
+            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
+      },
+      {
+        title: "العقد الوطني لسياسة السكان 2023",        
+        ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
+      },
+      {
+            title: "استراتيجية تطوير القطاع الخاص 2014-2030",
+            en_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
+            ar_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
+      },    
+      {
+        title: "سياسة البنية التحتية المدرسية الوطنية للعراق 2023",
+        en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
+        ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
+      },
+      {
+        title: "استراتيجية تخفيف الفقر 2018-22",        
+        ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
+      },
+      {
+            title: "استراتيجية إصلاح الإدارة 2021",
+            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
+      },     
+      {
+        title: "خطة مكافحة التطرف العنيف الوطنية 2019",
+        en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
+      },
+      {
+        topic: "الكتاب الأبيض حول الإصلاحات المالية 2020/21",
         files: [
           {
-            title: "استراتيجية الاصلاح الاداري في الدوائر الحكومية في العراق ٢٠٢١",
+            title: "تقرير الكتاب الأبيض 2020",
+            en_source:
+              "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
             ar_source:
-              "https://drive.google.com/file/d/102GpzsDihhuFcR8xvvjewfXIEOKb9RDq/view?usp=sharing",
+              "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
+          },
+          {
+            title: "خطة تنفيذ الكتاب الأبيض 2021",         
+            ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
+          },
+          {
+            title: "ملخص الكتاب الأبيض 2020",
+            en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
           },
         ],
-      },
+      },      
+      ],
+      },   
       {
         topic: "تطوير القطاع الخاص",
         files: [
           {
-            title: "استراتيجية تنمية القطاع الخاص للفترة ٢٠١٤-٢٠٢٠",
+            title: "إستراتيجية تطوير القطاع الخاص 2014-2030",
             en_source:
               "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
             ar_source:
               "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
           },
           {
-            title: "تشخيص الاقتصاد غير المنظم في العراق ٢٠٢١",
+            title: "تشخيص الاقتصاد غير الرسمي في العراق (2021)",
             en_source: "https://iraq.un.org/en/download/89966/160607",
             ar_source: "https://iraq.un.org/en/download/89967/160607",
-            description: "شـارك فـي إصـدار هـذا المنشـور كل ًُ مـن منظمـة العمـل الدوليـة، وبرنامـج األمـم المتحـدة اإلنمائـي، وهيئـة األمـم المتحـدة للمـرأة، والمنظمـة الدوليـة للهجـرة",
-          },
-          {
-            title: "دراسة المؤسسات الصغرى والصغيرة والمتوسطة في محافظات بغداد ونينوى والبصرة ٢٠٢٠",
+            description: "نشر بالتعاون مع البرنامج الإنمائي للأمم المتحدة، الاتحاد الأوروبي، منظمة العمل الدولية، الأمم المتحدة للمرأة",
+         },
+         {
+            title: "مسح الشركات الصغيرة والمتوسطة في العراق في بغداد، البصرة، نينوى (2020)",
             en_source: "https://www.iq.undp.org/content/dam/iraq/docs/UNDP_IQ_MSME_Survey_Final_Report_EN.pdf",
             ar_source: "https://www.iq.undp.org/content/dam/iraq/docs/UNDP_IQ_MSME_Survey_Final_Report_AR.pdf",
-            description: "وزارة التخطيط-الجهاز المركزي للاحصاء بالشراكة مع برنامج الامم المتحدة الانمائي",
+            description: "نشرته الهيئة المركزية للاحصاء في وزارة التخطيط بالشراكة مع البرنامج الإنمائي للأمم المتحدة",
          },
         ],
       },
       {
-        topic: "هيئة الاستثمار الوطنية",
+        topic: "الهيئة الوطنية للاستثمار",
         files: [
           {
-            title: "الدليل القانوني لإلستثمار في العراق لعام ٢٠١٦",
+            title: "الدليل القانوني للاستثمار في العراق",
             en_source:
               "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
             ar_source:
-              "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-1.pdf",
           },
           {
-            title: "دليل المستثمر في العراق لعام ۲۰۱٦",
+            title: "دليل المستثمر للعراق (2023)",
             en_source:
               "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-english.pdf",
             ar_source:
-              "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-arabic.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AB%D9%85%D8%B1-2023-1.pdf",
           },
           {
-            title: "الخارطة الاستثمارية للعراق لعام ٢٠١٦",
+            title: "الخريطة الاستثمارية للعراق (2023)",
             en_source:
-              "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20english.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/Investment-Map2023-1-1.pdf",
             ar_source:
-              "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20-%20arabic%20.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%B7%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-2023-1.pdf",
           },
         ],
       },
       {
-        title: "المنظمة الدولية للهجرة - مصفوفة تتبع المهجرين العراقيين",
+        title: "مصفوفة تتبع التشريد للمنظمة الدولية للهجرة",
         en_source: "http://iraqdtm.iom.int/",
-        ar_source: "http://iraqdtm.iom.int/Arabic,",
+        ar_source: "https://iraqdtm.iom.int/Arabic",
       },
       {
         topic: "تقارير البنك الدولي",
         files: [
           {
-            title:
-              "مراجعة الانفاق العام لقطاعات التنمية البشرية في العراق (حزيران ٢٠٢١)",
-            en_source:
-              "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
+            title: "مذكرة سياسة صندوق القطاع الخاص في العراق (أكتوبر 2023)",
+            en_source: "http://documents1.worldbank.org/curated/en/099101123081578958/pdf/P17117500c6c18070867c06a96625eebaa.pdf",
+          },
+          {
+            title: "تأثير السياسة المالية على التفاوت والفقر في العراق (أكتوبر 2023)",
+            en_source: "http://documents1.worldbank.org/curated/en/099756510102321216/pdf/IDU0e287b0b90c36804788085bf0a11c7abd8ae4.pdf",
+          },
+          {
+            title: "تقرير البنك الدولي عن المناخ والتنمية في العراق (ديسمبر 2022)",
+            en_source: "http://documents1.worldbank.org/curated/en/099005012092241290/pdf/P1776390cfceae0d908ff8073b7e041bea6.pdf",
+            ar_source: "http://documents1.worldbank.org/curated/en/099725011152218218/pdf/P177639122730b481445a14e0019631158ac78c5972b.pdf",
+          },
+          {
+            title: "استعراض النفقات العامة على قطاعات التنمية البشرية في العراق (يونيو 2021)",
+            en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
-      },
+      },      
       {
-            title: "نحو بتاء أرضية الحماية الاجتماعية في العراق",
-            en_source:
-              "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
-            ar_source:
-              "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor%20Arbaic.pdf",
-          },
+        title: "ILO: بناء أرضية حماية اجتماعية للعراق 2022",
+        en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
+        ar_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor%20Arbaic.pdf",
+      },
     ],
   },
   {
     topic: "الانتخابات",
     files: [
       {
-        title: "المفوضية العليا المستقلة للانتخابات",
-        ar_source: "http://www.ihec.iq/ar/",
+        title: "المفوضية العليا المستقلة للانتخابات (المفوضية)",
+        ar_source: "http://www.ihec.iq/",
+      },
+      {
+        title: "قانون الانتخابات النيابية والمجالس المحلية (2023)",
+        ar_source: "http://www.ihec.iq/",
+      },
+      {
+        title: "نتائج انتخابات المجالس المحلية لعام 2023",
+        ar_source: "https://ihec.iq/29239-2/",
+      },
+      {
+        title: "تقرير رصد انتخابات المجالس المحلية لعام 2023",
+        ar_source: "https://ihec.iq/29239-2/",
+      },
+      {
+        title: "نتائج انتخابات مجلس النواب لعام 2021",
+        ar_source: "https://ihec.iq/result2021/",
       },
     ],
   },
   {
-    topic: "إحصاءات ومؤشرات",
+    topic: "المجتمع المدني",
     files: [
       {
-        title: "المجموعة الاحصائية لعام ٢٠١٨-٢٠١٩",
-        en_source: "http://cosit.gov.iq/ar/2018-2019",
+        title: "قائمة الجمعيات غير الحكومية المسجلة في العراق",
+        ar_source: "https://www.ngoao.gov.iq/uploads/articles/2024/1/ngo%20list%20till%2014.01.2024.pdf",
+      },
+    ],
+  },
+  {
+    topic: "الإحصاءات والمؤشرات",
+    files: [
+      {
+        title: "نظرة عامة على الفقر الماكروي للعراق (إبريل 2023)",
+        en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",        
+      },
+      {
+        title: "ملخص إحصائي سنوي 2022-23",        
+        ar_source: "https://cosit.gov.iq/ar/?option=com_content&view=article&layout=edit&id=1470",
+      },
+      {
+        title: "ملخص إحصائي على مستوى المحافظات 2022",        
+        ar_source: "https://www.cosit.gov.iq/StatisticalAbstract-2022/StatisticalAbstract.html",
+      },
+      {
+        title: "ملخص إحصائي سنوي 2018-19",        
         ar_source: "http://cosit.gov.iq/ar/2018-2019",
       },
       {
-        title: "مؤشرات الإسكان والديموغرافية",
+        title: "مؤشرات الديمغرافية والإسكان",
         ar_source: "http://cosit.gov.iq/ar/2013-01-31-08-43-38",
       },
       {
-        title: "الصحة والمؤشرات البيئية",
+        title: "مؤشرات الصحة والبيئة",
         ar_source: "http://cosit.gov.iq/ar/env-ind",
+      },
+      {
+        title: "دراسة جمع البيانات حول إدارة النفايات الصلبة في العراق 2022",
+        en_source: "https://drive.google.com/file/d/1WocpHwA5wyW77FOU-efTJyV3zRChOxCU/view?usp=sharing",
       },
     ],
   },
