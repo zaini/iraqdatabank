@@ -452,11 +452,16 @@ const data = [
         ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
       },
       {
+            title: "Administrative Reform Strategy 2021",
+            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
+      },     
+      {
         title: "Combatting Violent Extremism National Plan 2019",
         en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
         ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
       },
-          {
+      {
         topic: "White Paper on Financial Reforms 2020/21",
         files: [
           {
@@ -476,11 +481,8 @@ const data = [
           },
         ],
       },      
-          {
-            title: "Administrative Reform Strategy 2021",
-            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
-            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
-          },     
+      ],
+      },   
       {
         topic: "Private Sector Development",
         files: [
@@ -505,8 +507,6 @@ const data = [
          },
         ],
       },
-      ],
-      },   
       {
         topic: "National Investment Commission",
         files: [
