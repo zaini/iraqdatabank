@@ -272,11 +272,11 @@ const data = [
         ],
       },
       {
-        title: "قانون الأمن الغذائي الطارئ 2022",
+        title: "قانون الدعم الطارئ للأمن الغذائي 2022",
         ar_source: "https://drive.google.com/file/d/1os4GSFXG5TzhyT3fbOuU8NpSAdjWkQYC/view?usp=sharing",
       },
       {
-        title: "قانون إدارة المالية 2019",
+        title: "قانون الإدارة المالية 2019",
         en_source: "https://drive.google.com/file/d/1131Hyw_IdX50ivYq2lspxnzZxo0TJjIl/view?usp=sharing",
         ar_source: "https://drive.google.com/file/d/1TLucZFv9CgxxHii8a6JEQZ0FP0m8S3fG/view?usp=sharing",
       },
@@ -418,7 +418,7 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
           },
           {
-            title: "خطة التنمية الوطنية للعراق 2018-22",
+            title: "20خطة التنمية الوطنية 2018-22",
             en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
             ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
           },
@@ -427,7 +427,7 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
           },
           {
-            title: "العقد الوطني لسياسة السكان 2023",
+            title: "الوثيقة الوطنية للسياسات السكانية 2023",
             ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
           },
           {
@@ -445,7 +445,7 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
           },
           {
-            title: "استراتيجية إصلاح الإدارة 2021",
+            title: "استراتيجية الإصلاح الإداري 2021",
             ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
             en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
           },
@@ -455,21 +455,21 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
           },
           {
-            topic: "الكتاب الأبيض حول الإصلاحات المالية 2020/21",
+            topic: "الورقة البيضاء للإصلاحات المالية 2020",
             files: [
               {
-                title: "تقرير الكتاب الأبيض 2020",
+                title: "تقرير الورقة البيضاء 2020",
                 en_source:
                   "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
                 ar_source:
                   "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
               },
               {
-                title: "خطة تنفيذ الكتاب الأبيض 2021",
+                title: "خطة تنفيذ الورقة البيضاء 2021",
                 ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
               },
               {
-                title: "ملخص الكتاب الأبيض 2020",
+                title: "ملخص الورقة البيضاء 2020",
                 en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
               },
             ],
@@ -527,7 +527,7 @@ const data = [
         ],
       },
       {
-        title: "مصفوفة تتبع التشريد للمنظمة الدولية للهجرة",
+        title: "مصفوفة تتبع المهجرين للمنظمة الدولية للهجرة",
         en_source: "http://iraqdtm.iom.int/",
         ar_source: "https://iraqdtm.iom.int/Arabic",
       },
@@ -554,7 +554,7 @@ const data = [
         ],
       },
       {
-        title: "ILO: بناء أرضية حماية اجتماعية للعراق 2022",
+        title: "بناء أرضية حماية اجتماعية للعراق 2022",
         en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
         ar_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor%20Arbaic.pdf",
       },
