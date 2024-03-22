@@ -72,7 +72,7 @@ const data = [
         en_source:
           "https://drive.google.com/file/d/12aiA2kv0v7n0T6sM71fbdZlEGW4AHNAR/view?usp=sharing",
         ar_source:
-          "http://parliament.iq/wp-content/uploads/2017/01/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.pdf",
+          "https://drive.google.com/file/d/1Pc6CtpJSYzJGI-9-aooQxTdMhGwOMiRP/view?usp=sharing",
       },
       {
         title: "Council of Representatives Law 2018",        
@@ -91,10 +91,11 @@ const data = [
     files: [
       {
         title: "Higher Judicial Council",
-        ar_source: "http://www.iraqja.iq/",
+        ar_source: "https://www.sjc.iq/index-ar.php",
       },
       {
-        title: "Federal Supreme Court",
+        title: "Federal Supreme Court decisions",
+        en_source: "https://www.iraqfsc.iq/Judgments-decisions-en.php",
         ar_source: "https://www.iraqfsc.iq/ethadai.php",
       },
       {
@@ -102,8 +103,8 @@ const data = [
         files: [
           {
             title: "FBSA Homepage",
-            en_source: "http://www.fbsa.gov.iq/en",
-            ar_source: "http://www.fbsa.gov.iq/",
+            en_source: "https://fbsa.gov.iq/",
+            ar_source: "https://fbsa.gov.iq/",
           },
         ],
       },
@@ -115,26 +116,30 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
           },
           {
-            title: "Anti-Corruption Strategy 2016-2020",
-            ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
-          },
-          {
-            topic: "Annual Reports",
+            topic: "Commission of Integrity Annual Reports",
             files: [
               {
-                title: "Summary of Annual Report 2020",
+                title: "Integrity Commission Annual Report 2023",
+                ar_source: "https://drive.google.com/file/d/1chkkxrl1LsgaxC5yHiOo5y1znWaKv7MD/view?usp=sharing",
+              },
+              {
+                title: "Integrity Commission Annual Report 2022",
+                ar_source: "https://drive.google.com/file/d/1EoDB_pcESiEKZoi4dORK4iTCw80-cmpt/view?usp=sharing",
+              },
+              {
+                title: "Summary of Integrity Commission Annual Report 2020",
                 ar_source: "https://nazaha.iq/pdf_up/6265/MRep2020.pdf",
               },
               {
-                title: "Annual Report 2019",
+                title: "Integrity Commission Annual Report 2019",
                 ar_source: "https://nazaha.iq/pdf_up/5778/f_report_2019.pdf",
               },
               {
-                title: "Annual Report 2016",
+                title: "Integrity Commission Annual Report 2016",
                 ar_source: "http://www.nazaha.iq/pdf_up/3951/mlreportF2016.pdf",
               },
               {
-                title: "Annual Report 2015",
+                title: "Integrity Commission Annual Report 2015",
                 ar_source:
                   "http://www.nazaha.iq/body.asp?field=news_arabic&id=3563",
               },
@@ -411,6 +416,9 @@ const data = [
     topic: "Economic and Social Development",
     files: [
       {
+        topic: "National Strategic Plans",
+        files: [
+      {
         title: "Iraq Vision 2030 strategy",        
         ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
       },
@@ -420,10 +428,35 @@ const data = [
         ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
       },
       {
+            title: "Anti-Corruption Strategy 2021-2024",
+            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
+      },
+      {
         title: "National Compact for Population Policy 2023",        
         ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
       },
       {
+            title: "Private Sector Development Strategy 2014-2030",
+            en_source:
+              "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
+            ar_source:
+              "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
+      },    
+      {
+        title: "A National School Infrastructure Policy for Iraq 2023",
+        en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
+        ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
+      },
+      {
+        title: "Poverty Reduction Strategy 2018-22",        
+        ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
+      },
+      {
+        title: "Combatting Violent Extremism National Plan 2019",
+        en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
+      },
+          {
         topic: "White Paper on Financial Reforms 2020/21",
         files: [
           {
@@ -442,17 +475,12 @@ const data = [
             en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
           },
         ],
-      },
-      {
-        topic: "Public Sector Administrative Reform",
-        files: [
+      },      
           {
             title: "Administrative Reform Strategy 2021",
             ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
             en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
-          },
-        ],
-      },
+          },     
       {
         topic: "Private Sector Development",
         files: [
@@ -477,38 +505,31 @@ const data = [
          },
         ],
       },
-      {
-        title: "Poverty Reduction Strategy 2018-22",        
-        ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
-      },
-      {
-        title: "Combatting Violent Extremism National Plan 2019",
-        en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
-        ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
-      },
+      ],
+      },   
       {
         topic: "National Investment Commission",
         files: [
           {
-            title: "Legal Guide to Investing in Iraq (2016)",
+            title: "Legal Guide to Investing in Iraq",
             en_source:
               "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
             ar_source:
-              "http://investpromo.gov.iq/wp-content/uploads/2016/10/legel-guide%20-final.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1-1.pdf",
           },
           {
-            title: "Investor’s Guide to Iraq (2016)",
+            title: "Investor’s Guide to Iraq (2023)",
             en_source:
               "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-english.pdf",
             ar_source:
-              "http://investpromo.gov.iq/wp-content/uploads/2013/07/Investor-Guide-2016-arabic.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/%D8%AF%D9%84%D9%8A%D9%84-%D8%A7%D9%84%D9%85%D8%B3%D8%AA%D8%AB%D9%85%D8%B1-2023-1.pdf",
           },
           {
-            title: "Investment Map of Iraq (2016)",
+            title: "Investment Map of Iraq (2023)",
             en_source:
-              "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20english.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/Investment-Map2023-1-1.pdf",
             ar_source:
-              "http://investpromo.gov.iq/nic_flash/refrence_materials/investment%20map%202016%20-%20arabic%20.pdf",
+              "https://investpromo.gov.iq/wp-content/uploads/2023/07/%D8%A7%D9%84%D8%AE%D8%A7%D8%B1%D8%B7%D8%A9-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AB%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-2023-1.pdf",
           },
         ],
       },
@@ -538,12 +559,7 @@ const data = [
             en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
-      },
-      {
-        title: "A National School Infrastructure Policy for Iraq 2023",
-        en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
-        ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
-      },
+      },      
       {
         title: "ILO: Building Iraq's Social Protection Floor 2022",
         en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
@@ -611,6 +627,10 @@ const data = [
       {
         title: "Health and Environmental Indicators",
         ar_source: "http://cosit.gov.iq/ar/env-ind",
+      },
+      {
+        title: "Data collection study on solid waste management in Iraq 2022",
+        en_source: "https://drive.google.com/file/d/1WocpHwA5wyW77FOU-efTJyV3zRChOxCU/view?usp=sharing",
       },
     ],
   },
