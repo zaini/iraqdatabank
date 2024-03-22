@@ -95,10 +95,10 @@ const data = [
         ar_source: "https://www.iraqfsc.iq/ethadai.php",
       },
       {
-        topic: "الهيئة الاتحادية للرقابة المالية",
+        topic: "ديوان الرقابة المالية الاتحادي",
         files: [
           {
-            title: "الصفحة الرئيسية للهيئة الاتحادية للرقابة المالية",
+            title: "الصفحة الرئيسية لديوان الرقابة المالية",
             en_source: "https://fbsa.gov.iq/",
             ar_source: "https://fbsa.gov.iq/",
           },
@@ -112,7 +112,7 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
           },
           {
-            topic: "تقارير النزاهة السنوية",
+            topic: "هيئة النزاهة الاتحادية",
             files: [
               {
                 title: "تقرير النزاهة السنوي 2023",
@@ -149,12 +149,12 @@ const data = [
     topic: "الموازنات والمالية",
     files: [
       {
-        topic: "قوانين الموازنة السنوية الاتحادية",
+        topic: "قوانين الموازنة الاتحادية",
         description:
           "يرجى ملاحظة أن الموازنات الاتحادية لم تتم الموافقة عليها في عام 2014 و 2020 و 2022.",
         files: [
           {
-            title: "الموازنة الاتحادية 2023-25 (مع المرفقات)",
+            title: "الموازنة الاتحادية 2023-2025 (مع المرفقات)",
             ar_source: "https://moj.gov.iq/upload/pdf/4726_72.pdf",
           },
           {
