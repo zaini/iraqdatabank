@@ -1,11 +1,12 @@
 const data = [
   {
     topic: "Executive Branch",
-    description: "",
+    description: "Includes important government decisions, policy priorities, and national strategies.",
     files: [
       {
         title: "Council of Ministers resolutions",
-        ar_source: "http://www.cabinet.iq/ArticlesBrowse.aspx?CatID=6/",
+        en_source: "https://www.cabinet.iq/en/category/decisions",
+        ar_source: "https://www.cabinet.iq/ar/category/decisions",
         description: "",
       },
       {
@@ -14,41 +15,42 @@ const data = [
         ar_source: "https://pmo.iq/press.htm/",
       },
       {
-        title: "Government Agenda 2020",
-        ar_source: "https://pmo.iq/press2020/6-5-202002.htm/",
+        title: "Government daily activities report",
+        description: "Detailed overview of activities across state institutions.",
+        ar_source: "https://www.cabinet.iq/ar/category/activities",
       },
       {
-        title: "Government Performance Report 2021",
-        ar_source:
-          "https://drive.google.com/file/d/1idNnbPPv_3dii0re-khDZHNlFDuck6C5/view",
+        title: "Sudani government mandate",
+        description: "Outlines the government's formal policy priorities, known as al-minhaj al-wizari.",
+        ar_source: "https://pmo.iq/?page=6",
+      },
+      {
+        title: "Ur Government Digial Services Portal",
+        description: "Online government portal for digital services.",
+        en_source: "https://ur.gov.iq/#",
+        ar_source: "https://ur.gov.iq/",
       },
       {
         topic: "Local government",
         files: [
           {
-            title: "Law of Provinces Not Associated to Regions (2008)",
-            en_source:
-              "http://gjpi.org/wp-content/uploads/2009/01/cor_law_governorates_not_part_regions_en.pdf/",
-            ar_source:
-              "https://arb.parliament.iq/archive/2008/11/03/%D9%82%D8%A7%D9%86%D9%88%D9%86-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D9%81%D8%B8%D8%A7%D8%AA-%D8%BA%D9%8A%D8%B1-%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%B8%D9%85%D8%A9-%D9%81%D9%8A-%D8%A7%D9%82%D9%84%D9%8A%D9%85/",
+            title: "Law of Provinces Not Associated to Regions (third amendment 2018)",
+            description: "Law that defines provincial powers, local government formation, and decentralization",
+            en_source: "https://drive.google.com/file/d/12dphdHH0UJk8O1DkgoP4E4EhUs7LYIX3/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1Meh7tFDKUpTe_dsnplG5pt-pJmdfKSwb/view?usp=sharing",
           },
         ],
       },
       {
-        topic: "Archives",
+        topic: "Previous governments archive",
         files: [
           {
-            title: "Strategic Priorities for Ministerial Plans 2014-2018",
-            en_source: "http://google.com/",
-            ar_source: "http://google.fr/",
+            title: "Abdul Mahdi government annual performance report 2019",
+            ar_source: "https://drive.google.com/file/d/1VvKCZgSBNCYNbF33qEs4pQJktRRn8i0O/view?usp=sharing",
           },
           {
-            title: "Government Agenda 2014-2018",
-            ar_source: "http://pmo.iq/pdf/3.pdf",
-          },
-          {
-            title: "Political Agreement between Political Blocs 2014",
-            ar_source: "http://pmo.iq/pdf/4.pdf",
+            title: "Kadhimi government annual performance report 2021",            
+            ar_source: "https://drive.google.com/file/d/1RUbD0sBsO03F9U7NwIu7NS5Inzd596uf/view?usp=sharing",
           },
         ],
       },
@@ -58,7 +60,7 @@ const data = [
     topic: "Legislative Branch",
     files: [
       {
-        title: "Council of Representatives",
+        title: "Council of Representatives website",
         ar_source: "http://parliament.iq",
       },
       {
@@ -68,16 +70,19 @@ const data = [
       {
         title: "Iraqi Constitution",
         en_source:
-          "http://zaidalali.bookswarm.co.uk/wp-content/uploads/2014/03/Iraqs-constitution-unofficial-translation.docx",
+          "https://drive.google.com/file/d/12aiA2kv0v7n0T6sM71fbdZlEGW4AHNAR/view?usp=sharing",
         ar_source:
           "http://parliament.iq/wp-content/uploads/2017/01/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%AC%D9%85%D9%87%D9%88%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.pdf",
       },
       {
-        title: "Legal Glossary of Terms",
-        en_source:
-          "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
+        title: "Council of Representatives Law 2018",        
         ar_source:
-          "http://gjpi.org/wp-content/uploads/gjpi-legal-terms-eng-ara.htm",
+          "https://drive.google.com/file/d/1PATGZxYJ_HdX_6jbQi7mrnGU-8qD0_NM/view?usp=sharing",
+      },
+      {
+        title: "Council of Representatives Internal Bylaws",        
+        ar_source:
+          "https://drive.google.com/file/d/1ieUu5EuQQ0Q-Fsc-utTQRZNmLgnGT4-O/view?usp=sharing",
       },
     ],
   },
@@ -105,6 +110,10 @@ const data = [
       {
         topic: "Commission of Integrity",
         files: [
+          {
+            title: "Anti-Corruption Strategy 2021-2024",
+            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
+          },
           {
             title: "Anti-Corruption Strategy 2016-2020",
             ar_source: "http://www.nazaha.iq/pdf_up/3940/strat_2016-2020.pdf",
@@ -141,7 +150,7 @@ const data = [
       {
         topic: "Annual Federal Budget Laws",
         description:
-          "Note that federal budgets were not approved in 2014 and 2020.",
+          "Note that federal budgets were not approved in 2014, 2020, and 2022.",
         files: [
           {
             title: "Federal Budget 2023-25 (with Annexes)",
@@ -210,6 +219,71 @@ const data = [
           },
         ],
       },
+      {
+        topic: "End of year actual spending reports",
+        description: "Actual spending figures for December each year",         
+        files: [
+          {
+            title: "2023 actual spending report",
+            ar_source: "https://drive.google.com/file/d/1jrZN1EjoOy4QbXXW1QggvjIX0IHVAbpU/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1jrZN1EjoOy4QbXXW1QggvjIX0IHVAbpU/view?usp=sharing",
+          },
+          {
+            title: "2022 actual spending report",
+            ar_source: "https://drive.google.com/file/d/1ETWvOA4RSMN4CYLdoDcRVqXNaUr66BYH/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1ETWvOA4RSMN4CYLdoDcRVqXNaUr66BYH/view?usp=sharing",
+          },
+          {
+            title: "2021 actual spending report",
+            ar_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1YnABm0tGlkAXTTdT8fC78_lcVBjcQO5X/view?usp=sharing",
+          },
+           {
+            title: "2020 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1RGlVCVM9rWPLjr9sH5qlSFhJrEcZYZrq/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+           {
+            title: "2019 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1jDUJaBeXaqW0kqtky3MqJRjsX6u3ZQhD/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2018 actual spending report (until November)",
+            ar_source: "https://docs.google.com/spreadsheets/d/1gfR6RCS5uC67GFiYXkUs_xlDWfq72rrv/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1gfR6RCS5uC67GFiYXkUs_xlDWfq72rrv/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2017 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1Nb33c_-JGPdVCaRl3jzVb2NyVU9Fn5hm/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1Nb33c_-JGPdVCaRl3jzVb2NyVU9Fn5hm/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2016 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1B3iA0one2J6T4IA8HYAADbdtY_s7hdQS/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1B3iA0one2J6T4IA8HYAADbdtY_s7hdQS/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+          {
+            title: "2015 actual spending report",
+            ar_source: "https://docs.google.com/spreadsheets/d/1dgc6oem0PHs-fyd7ZCj5xxHPPI7FLLKI/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+            en_source: "https://docs.google.com/spreadsheets/d/1dgc6oem0PHs-fyd7ZCj5xxHPPI7FLLKI/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+          },
+        ],
+      },
+      {
+        title: "Emergency Food Security Law 2022",
+        ar_source: "https://drive.google.com/file/d/1os4GSFXG5TzhyT3fbOuU8NpSAdjWkQYC/view?usp=sharing",        
+      },
+      {
+        title: "Financial Management Law 2019",
+        en_source: "https://drive.google.com/file/d/1131Hyw_IdX50ivYq2lspxnzZxo0TJjIl/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1TLucZFv9CgxxHii8a6JEQZ0FP0m8S3fG/view?usp=sharing",
+      },
+      {
+        title: "IMF Technical Assistance Report on Government Finance Statistics 2023",
+        en_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx",
+        ar_source: "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023001.ashx", 
+      },
     ],
   },
   {
@@ -219,23 +293,53 @@ const data = [
         topic: "Central Bank of Iraq",
         files: [
           {
+            title: "Economic and statistical data",
+            en_source: "https://cbiraq.org/",
+            ar_source: "https://cbiraq.org/",
+          },
+          {
+            title: "Monetary and financial stability data",
+            en_source: "https://cbi.iq/page/122",
+            ar_source: "https://cbi.iq/page/122",
+          },
+          {
+            title: "Key financial indicators",
+            en_source: "https://cbi.iq/news/view/94",
+            ar_source: "https://cbi.iq/news/view/94",
+          },
+          {
+            topic: "Annual Financial Statements",
+            files: [
+              {
+                title: "Archive 2016-2022",
+                en_source: "https://cbi.iq/page/76",
+                ar_source: "https://cbi.iq/page/76", 
+              },
+              {
+                title: "Archive 2005-2015",
+                en_source: "https://cbi.iq/page/75",
+                ar_source: "https://cbi.iq/page/75", 
+              },
+              {
+                title: "2022 annual financial statement",
+                en_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
+                ar_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",  
+              },              
+            ],
+          },
+          {
             topic: "Statements of Financial Position",
             files: [
               {
-                title: "Statement of Financial Position (March 2021)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-16193397474110.pdf",
+                title: "Archive 2017-2023",
+                en_source: "https://cbi.iq/page/73",
+                ar_source: "https://cbi.iq/page/73", 
               },
               {
-                title: "Statement of Financial Position (February 2021)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-161692948015696.pdf",
-              },
-              {
-                title: "Statement of Financial Position (January 2021)",
-                en_source:
-                  "https://cbi.iq/static/uploads/up/file-161545360093508.pdf",
-              },
+                title: "Statement of financial position (November 2023)",
+                en_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
+                ar_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",  
+              },              
             ],
           },
         ],
@@ -264,6 +368,11 @@ const data = [
         topic: "International Monetary Fund",
         files: [
           {
+            title: "2022 Article IV Consultation",
+            en_source:
+              "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023002.ashx",
+          },
+          {
             title: "2020 Article IV Consultation",
             en_source:
               "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx",
@@ -276,20 +385,23 @@ const data = [
     topic: "Energy",
     files: [
       {
-        title: "Monthly Iraq crude exports",
+        title: "Latest monthly Iraq crude exports",        
+        en_source: "https://somooil.gov.iq/posts/view/30",
+        ar_source: "https://somooil.gov.iq/posts/view/30",
+      },
+      {
+        title: "2023 annual Iraq crude exports",
         description: "Figures to not include KRG independent exports.",
-        en_source: "https://somooil.gov.iq/exports",
-        ar_source: "https://somooil.gov.iq/exports",
+        en_source: "https://somooil.gov.iq/storage/gfvMkh0RlOA0hVtfCDMBVyJbgxLROytcxnI24BP0.xlsx",
+        ar_source: "https://somooil.gov.iq/storage/gfvMkh0RlOA0hVtfCDMBVyJbgxLROytcxnI24BP0.xlsx",
       },
       {
         topic: "Extractive Industries Transparency Initiative",
         files: [
           {
-            title: "Iraq EITI Report 2018 (published March 2021)",
+            title: "Iraq EITI Report 2021 (published December 2023)",
             en_source:
-              "https://eiti.org/files/documents/iraq_2018_eiti_report_en.pdf",
-            ar_source:
-              "https://eiti.org/files/documents/iraq_2018_eiti_report_ar.pdf",
+              "https://eiti.org/sites/default/files/2024-01/Iraq%202021%20EITI%20Report.pdf",            
           },
         ],
       },
@@ -299,26 +411,35 @@ const data = [
     topic: "Economic and Social Development",
     files: [
       {
+        title: "Iraq Vision 2030 strategy",        
+        ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
+      },
+      {
+        title: "Iraq National Development Plan 2018-22",
+        en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
+      },
+      {
+        title: "National Compact for Population Policy 2023",        
+        ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
+      },
+      {
         topic: "White Paper on Financial Reforms 2020/21",
         files: [
           {
             title: "White Paper Report 2020",
             en_source:
-              "https://drive.google.com/file/d/1mdnNi5Arf_7j_pbmPdVc2hO2Z-AOOmdw/view?usp=sharing",
+              "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
             ar_source:
-              "https://drive.google.com/file/d/1wDseusYfMRYW6b3sBHyv5uY4GanHXNGK/view?usp=sharing",
+              "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
           },
           {
-            title: "White Paper Implementation Plan 2021",
-            en_source:
-              "https://drive.google.com/file/d/1RVb-h8r6iBWM7bIPBgAD1rOygGG_8P0m/view?usp=sharing",
-            ar_source:
-              "https://drive.google.com/file/d/19FrToYtdZBojxZaebEFjedJwC26L0LRn/view?usp=sharing",
+            title: "White Paper Implementation Plan 2021",         
+            ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
           },
           {
             title: "White Paper 2020 Summary",
-            en_source:
-              "https://drive.google.com/file/d/1ZhSRiM3BC-6HqQtVKNjIPnWg8WL7Qkx_/view?usp=sharing",
+            en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
           },
         ],
       },
@@ -327,8 +448,8 @@ const data = [
         files: [
           {
             title: "Administrative Reform Strategy 2021",
-            ar_source:
-              "https://drive.google.com/file/d/102GpzsDihhuFcR8xvvjewfXIEOKb9RDq/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
           },
         ],
       },
@@ -355,6 +476,15 @@ const data = [
             description: "Published by Ministry of Planning’s Central Statistical Organization (CSO) in partnership with UNDP",
          },
         ],
+      },
+      {
+        title: "Poverty Reduction Strategy 2018-22",        
+        ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
+      },
+      {
+        title: "Combatting Violent Extremism National Plan 2019",
+        en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
       },
       {
         topic: "National Investment Commission",
@@ -385,21 +515,37 @@ const data = [
       {
         title: "IOM Displacement Tracking Matrix",
         en_source: "http://iraqdtm.iom.int/",
-        ar_source: "http://iraqdtm.iom.int/Arabic,",
+        ar_source: "https://iraqdtm.iom.int/Arabic",
       },
       {
         topic: "World Bank reports",
         files: [
           {
-            title:
-              "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
-            en_source:
-              "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
+            title: "Iraq Private Sector Fund policy note (October 2023)",
+            en_source: "http://documents1.worldbank.org/curated/en/099101123081578958/pdf/P17117500c6c18070867c06a96625eebaa.pdf",
+          },
+          {
+            title: "The Effects of Fiscal Policy on Inequality and Poverty in Iraq (October 2023)",
+            en_source: "http://documents1.worldbank.org/curated/en/099756510102321216/pdf/IDU0e287b0b90c36804788085bf0a11c7abd8ae4.pdf",
+          },
+          {
+            title: "Iraq Country Climate and Development Report (December 2022)",
+            en_source: "http://documents1.worldbank.org/curated/en/099005012092241290/pdf/P1776390cfceae0d908ff8073b7e041bea6.pdf",
+            ar_source: "http://documents1.worldbank.org/curated/en/099725011152218218/pdf/P177639122730b481445a14e0019631158ac78c5972b.pdf",
+          },
+          {
+            title: "A Public Expenditure Review for Human Development Sectors in Iraq (June 2021)",
+            en_source: "https://documents1.worldbank.org/curated/en/568141622306648034/pdf/Addressing-the-Human-Capital-Crisis-A-Public-Expenditure-Review-for-Human-Development-Sectors-in-Iraq.pdf",
           },
         ],
       },
       {
-        title: "ILO: Building Iraq's Social Protection Floor",
+        title: "A National School Infrastructure Policy for Iraq 2023",
+        en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
+        ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
+      },
+      {
+        title: "ILO: Building Iraq's Social Protection Floor 2022",
         en_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor.pdf",
         ar_source: "https://iraq.un.org/sites/default/files/2022-08/Building%20Iraq%E2%80%99s%20Social%20Protection%20Floor%20Arbaic.pdf",
       },
@@ -412,14 +558,50 @@ const data = [
         title: "Independent High Electoral Commission (IHEC)",
         ar_source: "http://www.ihec.iq/",
       },
+      {
+        title: "Parliamentary and Provincial Council Elections Law (2023)",
+        ar_source: "http://www.ihec.iq/",
+      },
+      {
+        title: "2023 Provincial Council Election results",
+        ar_source: "https://ihec.iq/29239-2/",
+      },
+      {
+        title: "2023 Provincial Council Election monitoring report",
+        ar_source: "https://ihec.iq/29239-2/",
+      },
+      {
+        title: "2021 Council of Representatives Election results",
+        ar_source: "https://ihec.iq/result2021/",
+      },
+    ],
+  },
+  {
+    topic: "Civil Society",
+    files: [
+      {
+        title: "List of registered NGOs in Iraq",
+        ar_source: "https://www.ngoao.gov.iq/uploads/articles/2024/1/ngo%20list%20till%2014.01.2024.pdf",
+      },
     ],
   },
   {
     topic: "Statistics and Indicators",
     files: [
       {
-        title: "Annual Statistical Abstract 2018-19",
-        en_source: "http://cosit.gov.iq/ar/2018-2019",
+        title: "Macro Poverty Outlook for Iraq (April 2023)",
+        en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",        
+      },
+      {
+        title: "Annual Statistical Abstract 2022-23",        
+        ar_source: "https://cosit.gov.iq/ar/?option=com_content&view=article&layout=edit&id=1470",
+      },
+      {
+        title: "Provincial level statistical summary 2022",        
+        ar_source: "https://www.cosit.gov.iq/StatisticalAbstract-2022/StatisticalAbstract.html",
+      },
+      {
+        title: "Annual Statistical Abstract 2018-19",        
         ar_source: "http://cosit.gov.iq/ar/2018-2019",
       },
       {
