@@ -24,8 +24,7 @@ const App = () => {
       <Divider />
 
       <Text textAlign="center" fontSize="18px">
-        Iraq Databank is a repository and research tool for reports and
-        statistics on Iraq
+        Iraq Databank is an open-source repository and research tool featuring reports and statistics on Iraq
       </Text>
 
       <br />

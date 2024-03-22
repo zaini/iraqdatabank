@@ -37,12 +37,12 @@ const Footer = () => {
 
       <Box textAlign="center">
         <a
-          href="https://zaini.me/"
+          href="https://horizonadvisorygroup.org/"
           target="_blank"
           rel="noreferrer"
           style={{ color: "gray", fontSize: "13px" }}
         >
-          2021 &copy; Ali Zaini | علي زيني
+          2024 &copy; Horizon Advisory Group
         </a>
       </Box>
     </Box>
