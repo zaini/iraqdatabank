@@ -1,7 +1,7 @@
 const data = [
   {
     topic: "Executive Branch",
-    description: "Includes important government decisions, policy priorities, and national strategies.",
+    description: "Includes important government decisions and policy priorities.",
     files: [
       {
         title: "Council of Ministers resolutions",
