@@ -1,5 +1,4 @@
 const data = [
-  [
   {
     topic: "السلطة التنفيذية",
     description: "تشمل القرارات الحكومية الهامة وأولويات السياسات والاستراتيجيات الوطنية.",
@@ -82,9 +81,8 @@ const data = [
         ar_source: "https://drive.google.com/file/d/1ieUu5EuQQ0Q-Fsc-utTQRZNmLgnGT4-O/view?usp=sharing"
       }
     ]
-  }
-]
-{
+  },
+  {
     topic: "الرقابة القضائية والقانونية",
     files: [
       {
