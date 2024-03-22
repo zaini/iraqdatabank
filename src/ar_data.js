@@ -1,7 +1,7 @@
 const data = [
   {
     topic: "السلطة التنفيذية",
-    description: "تشمل القرارات الحكومية الهامة وأولويات السياسات والاستراتيجيات الوطنية.",
+    description: "تشمل القرارات الحكومية الهامة وأولويات السياسات",
     files: [
       {
         title: "قرارات مجلس الوزراء",
@@ -20,21 +20,21 @@ const data = [
         ar_source: "https://www.cabinet.iq/ar/category/activities"
       },
       {
-        title: "وثيقة تفويض حكومة السودان",
-        description: "يحدد أولويات السياسات الرسمية للحكومة المعروفة باسم المنهج الوزاري.",
+        title: "المنهاج الوزاري لحكومة السوداني",
+        description: "يحدد أولويات السياسات الرسمية للحكومة",
         ar_source: "https://pmo.iq/?page=6"
       },
       {
-        title: "بوابة خدمات الحكومة الرقمية للعراق",
-        description: "بوابة حكومية عبر الإنترنت للخدمات الرقمية.",
+        title: "بوابة أور الحكومية للخدمات الالكترونية",
+        description: "بوابة حكومية للخدمات الرقمية",
         en_source: "https://ur.gov.iq/#",
         ar_source: "https://ur.gov.iq/"
       },
       {
-        topic: "الحكومة المحلية",
+        topic: "السلطات المحلية",
         files: [
           {
-            title: "قانون المحافظات غير المنضوية في مناطق (التعديل الثالث 2018)",
+            title: "قانون المحافظات غير المنتظمة في اقليم (التعديل الثالث 2018)",
             description: "قانون يحدد صلاحيات المحافظات وتشكيل الحكومة المحلية واللامركزية.",
             en_source: "https://drive.google.com/file/d/12dphdHH0UJk8O1DkgoP4E4EhUs7LYIX3/view?usp=sharing",
             ar_source: "https://drive.google.com/file/d/1Meh7tFDKUpTe_dsnplG5pt-pJmdfKSwb/view?usp=sharing"
