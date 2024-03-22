@@ -293,95 +293,100 @@ const data = [
     ],
   },
       {
-    "موضوع": "السياسة النقدية",
-    "ملفات": [
-        {
-            "موضوع": "البنك المركزي العراقي",
-            "ملفات": [
-                {
-                    "العنوان": "البيانات الاقتصادية والإحصائية",
-                    "مصدر_الإنجليزية": "https://cbiraq.org/",
-                    "مصدر_العربية": "https://cbiraq.org/"
-                },
-                {
-                    "العنوان": "بيانات الاستقرار النقدي والمالي",
-                    "مصدر_الإنجليزية": "https://cbi.iq/page/122",
-                    "مصدر_العربية": "https://cbi.iq/page/122"
-                },
-                {
-                    "العنوان": "المؤشرات المالية الرئيسية",
-                    "مصدر_الإنجليزية": "https://cbi.iq/news/view/94",
-                    "مصدر_العربية": "https://cbi.iq/news/view/94"
-                },
-                {
-                    "موضوع": "البيانات المالية السنوية",
-                    "ملفات": [
-                        {
-                            "العنوان": "أرشيف 2016-2022",
-                            "مصدر_الإنجليزية": "https://cbi.iq/page/76",
-                            "مصدر_العربية": "https://cbi.iq/page/76"
-                        },
-                        {
-                            "العنوان": "أرشيف 2005-2015",
-                            "مصدر_الإنجليزية": "https://cbi.iq/page/75",
-                            "مصدر_العربية": "https://cbi.iq/page/75"
-                        },
-                        {
-                            "العنوان": "بيان المالية السنوي 2022",
-                            "مصدر_الإنجليزية": "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
-                            "مصدر_العربية": "https://cbi.iq/static/uploads/up/file-16864761369291.pdf"
-                        }
-                    ]
-                },
-                {
-                    "موضوع": "بيانات الموقف المالي",
-                    "ملفات": [
-                        {
-                            "العنوان": "أرشيف 2017-2023",
-                            "مصدر_الإنجليزية": "https://cbi.iq/page/73",
-                            "مصدر_العربية": "https://cbi.iq/page/73"
-                        },
-                        {
-                            "العنوان": "بيان الموقف المالي (نوفمبر 2023)",
-                            "مصدر_الإنجليزية": "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
-                            "مصدر_العربية": "https://cbi.iq/static/uploads/up/file-170832622082010.pdf"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "موضوع": "البيانات المالية (إرنست ويونغ)",
-            "ملفات": [
-                {
-                    "العنوان": "البيان المالي 2019",
-                    "مصدر": "https://cbi.iq/static/uploads/up/file-159851680953542.pdf"
-                },
-                {
-                    "العنوان": "البيان المالي 2018",
-                    "مصدر": "https://cbi.iq/static/uploads/up/file-156040785775959.pdf"
-                },
-                {
-                    "العنوان": "البيان المالي 2017",
-                    "مصدر": "https://cbi.iq/static/uploads/up/file-152499442357779.pdf"
-                }
-            ]
-        },
-        {
-            "موضوع": "صندوق النقد الدولي",
-            "ملفات": [
-                {
-                    "العنوان": "استشارة المادة الرابعة لعام 2022",
-                    "مصدر": "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023002.ashx"
-                },
-                {
-                    "العنوان": "استشارة المادة الرابعة لعام 2020",
-                    "مصدر": "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx"
-                }
-            ]
-        }
-    ]
-}
+    topic: "سياسة نقدية",
+    files: [
+      {
+        topic: "البنك المركزي العراقي",
+        files: [
+          {
+            title: "البيانات الاقتصادية والإحصائية",
+            en_source: "https://cbiraq.org/",
+            ar_source: "https://cbiraq.org/",
+          },
+          {
+            title: "البيانات المتعلقة بالاستقرار النقدي والمالي",
+            en_source: "https://cbi.iq/page/122",
+            ar_source: "https://cbi.iq/page/122",
+          },
+          {
+            title: "المؤشرات المالية الرئيسية",
+            en_source: "https://cbi.iq/news/view/94",
+            ar_source: "https://cbi.iq/news/view/94",
+          },
+          {
+            topic: "البيانات المالية السنوية",
+            files: [
+              {
+                title: "أرشيف 2016-2022",
+                en_source: "https://cbi.iq/page/76",
+                ar_source: "https://cbi.iq/page/76", 
+              },
+              {
+                title: "أرشيف 2005-2015",
+                en_source: "https://cbi.iq/page/75",
+                ar_source: "https://cbi.iq/page/75", 
+              },
+              {
+                title: "البيان المالي السنوي لعام 2022",
+                en_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",
+                ar_source: "https://cbi.iq/static/uploads/up/file-16864761369291.pdf",  
+              },              
+            ],
+          },
+          {
+            topic: "بيانات الموقف المالي",
+            files: [
+              {
+                title: "أرشيف 2017-2023",
+                en_source: "https://cbi.iq/page/73",
+                ar_source: "https://cbi.iq/page/73", 
+              },
+              {
+                title: "بيان الموقف المالي (نوفمبر 2023)",
+                en_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",
+                ar_source: "https://cbi.iq/static/uploads/up/file-170832622082010.pdf",  
+              },              
+            ],
+          },
+        ],
+      },
+      {
+        topic: "البيانات المالية (Ernst & Young)",
+        files: [
+          {
+            title: "البيان المالي لعام 2019",
+            ar_source:
+              "https://cbi.iq/static/uploads/up/file-159851680953542.pdf",
+          },
+          {
+            title: "البيان المالي لعام 2018",
+            ar_source:
+              "https://cbi.iq/static/uploads/up/file-156040785775959.pdf",
+          },
+          {
+            title: "البيان المالي لعام 2017",
+            ar_source:
+              "https://cbi.iq/static/uploads/up/file-152499442357779.pdf",
+          },
+        ],
+      },
+      {
+        topic: "صندوق النقد الدولي",
+        files: [
+          {
+            title: "استشارة المادة الرابعة والعشرين لعام 2022",
+            en_source:
+              "https://www.imf.org/-/media/Files/Publications/CR/2023/English/1IRQEA2023002.ashx",
+          },
+          {
+            title: "استشارة المادة الرابعة والعشرين لعام 2020",
+            en_source:
+              "https://www.imf.org/-/media/Files/Publications/CR/2021/English/1IRQEA2021002.ashx",
+          },
+        ],
+      },
+    ],
+  },
   {
     topic: "الطاقة",
     files: [
