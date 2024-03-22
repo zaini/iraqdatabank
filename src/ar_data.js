@@ -1,4 +1,5 @@
 const data = [
+  [
   {
     topic: "السلطة التنفيذية",
     description: "تشمل القرارات الحكومية الهامة وأولويات السياسات والاستراتيجيات الوطنية.",
@@ -7,28 +8,28 @@ const data = [
         title: "قرارات مجلس الوزراء",
         en_source: "https://www.cabinet.iq/en/category/decisions",
         ar_source: "https://www.cabinet.iq/ar/category/decisions",
-        description: "",
+        description: ""
       },
       {
         title: "بيانات مكتب رئيس الوزراء",
         en_source: "http://pmo.iq/pme/ipresse.htm/",
-        ar_source: "https://pmo.iq/press.htm/",
+        ar_source: "https://pmo.iq/press.htm/"
       },
       {
         title: "تقرير النشاطات اليومية للحكومة",
         description: "نظرة مفصلة على الأنشطة في مؤسسات الدولة.",
-        ar_source: "https://www.cabinet.iq/ar/category/activities",
+        ar_source: "https://www.cabinet.iq/ar/category/activities"
       },
       {
         title: "وثيقة تفويض حكومة السودان",
         description: "يحدد أولويات السياسات الرسمية للحكومة المعروفة باسم المنهج الوزاري.",
-        ar_source: "https://pmo.iq/?page=6",
+        ar_source: "https://pmo.iq/?page=6"
       },
       {
         title: "بوابة خدمات الحكومة الرقمية للعراق",
         description: "بوابة حكومية عبر الإنترنت للخدمات الرقمية.",
         en_source: "https://ur.gov.iq/#",
-        ar_source: "https://ur.gov.iq/",
+        ar_source: "https://ur.gov.iq/"
       },
       {
         topic: "الحكومة المحلية",
@@ -37,56 +38,53 @@ const data = [
             title: "قانون المحافظات غير المنضوية في مناطق (التعديل الثالث 2018)",
             description: "قانون يحدد صلاحيات المحافظات وتشكيل الحكومة المحلية واللامركزية.",
             en_source: "https://drive.google.com/file/d/12dphdHH0UJk8O1DkgoP4E4EhUs7LYIX3/view?usp=sharing",
-            ar_source: "https://drive.google.com/file/d/1Meh7tFDKUpTe_dsnplG5pt-pJmdfKSwb/view?usp=sharing",
-          },
-        ],
+            ar_source: "https://drive.google.com/file/d/1Meh7tFDKUpTe_dsnplG5pt-pJmdfKSwb/view?usp=sharing"
+          }
+        ]
       },
       {
         topic: "أرشيف الحكومات السابقة",
         files: [
           {
             title: "تقرير أداء حكومة عبد المهدي السنوي 2019",
-            ar_source: "https://drive.google.com/file/d/1VvKCZgSBNCYNbF33qEs4pQJktRRn8i0O/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1VvKCZgSBNCYNbF33qEs4pQJktRRn8i0O/view?usp=sharing"
           },
           {
             title: "تقرير أداء حكومة الكاظمي السنوي 2021",
-            ar_source: "https://drive.google.com/file/d/1RUbD0sBsO03F9U7NwIu7NS5Inzd596uf/view?usp=sharing",
-          },
-        ],
-      },
-    ],
+            ar_source: "https://drive.google.com/file/d/1RUbD0sBsO03F9U7NwIu7NS5Inzd596uf/view?usp=sharing"
+          }
+        ]
+      }
+    ]
   },
   {
     topic: "السلطة التشريعية",
     files: [
       {
         title: "موقع مجلس النواب",
-        ar_source: "http://parliament.iq",
+        ar_source: "http://parliament.iq"
       },
       {
         title: "الجريدة الرسمية",
-        ar_source: "http://www.moj.gov.iq/iraqmag/",
+        ar_source: "http://www.moj.gov.iq/iraqmag/"
       },
       {
         title: "الدستور العراقي",
-        en_source:
-          "https://drive.google.com/file/d/12aiA2kv0v7n0T6sM71fbdZlEGW4AHNAR/view?usp=sharing",
-        ar_source:
-          "https://drive.google.com/file/d/1Pc6CtpJSYzJGI-9-aooQxTdMhGwOMiRP/view?usp=sharing",
+        en_source: "https://drive.google.com/file/d/12aiA2kv0v7n0T6sM71fbdZlEGW4AHNAR/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1Pc6CtpJSYzJGI-9-aooQxTdMhGwOMiRP/view?usp=sharing"
       },
       {
         title: "قانون مجلس النواب لعام 2018",
-        ar_source:
-          "https://drive.google.com/file/d/1PATGZxYJ_HdX_6jbQi7mrnGU-8qD0_NM/view?usp=sharing",
+        ar_source: "https://drive.google.com/file/d/1PATGZxYJ_HdX_6jbQi7mrnGU-8qD0_NM/view?usp=sharing"
       },
       {
         title: "النظام الداخلي لمجلس النواب",
-        ar_source:
-          "https://drive.google.com/file/d/1ieUu5EuQQ0Q-Fsc-utTQRZNmLgnGT4-O/view?usp=sharing",
-      },
-    ],
-  },
-  {
+        ar_source: "https://drive.google.com/file/d/1ieUu5EuQQ0Q-Fsc-utTQRZNmLgnGT4-O/view?usp=sharing"
+      }
+    ]
+  }
+]
+{
     topic: "الرقابة القضائية والقانونية",
     files: [
       {
