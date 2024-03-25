@@ -8,7 +8,7 @@ const data = [
             ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
           },
           {
-            title: "20خطة التنمية الوطنية 2018-22",
+            title: "خطة التنمية الوطنية 2018-2022",
             en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
             ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
           },
@@ -31,7 +31,7 @@ const data = [
             ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
           },
           {
-            title: "استراتيجية تخفيف الفقر 2018-22",
+            title: "استراتيجية تخفيف الفقر 2018-2022",
             ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
           },
           {
@@ -569,7 +569,7 @@ const data = [
         ar_source: "http://www.ihec.iq/",
       },
       {
-        title: "قانون انتخابات مجلس النواب ومجالس المحافظات (2023)",
+        title: "قانون انتخابات مجلس النواب ومجالس المحافظات 2023",
         ar_source: "http://www.ihec.iq/",
       },
       {
@@ -599,11 +599,11 @@ const data = [
     topic: "الإحصاءات والمؤشرات",
     files: [
       {
-        title: "نظرة عامة على الفقر الماكروي للعراق (إبريل 2023)",
+        title: "نظرة عامة على الفقر الكلي للعراق 2023)",
         en_source: "http://documents1.worldbank.org/curated/en/099702204122341810/pdf/IDU03b38633d0a52d04dc30abc109419db755c56.pdf",
       },
       {
-        title: "ملخص إحصائي سنوي 2022-23",
+        title: "ملخص إحصائي سنوي 2022-2023",
         ar_source: "https://cosit.gov.iq/ar/?option=com_content&view=article&layout=edit&id=1470",
       },
       {
@@ -611,7 +611,7 @@ const data = [
         ar_source: "https://www.cosit.gov.iq/StatisticalAbstract-2022/StatisticalAbstract.html",
       },
       {
-        title: "ملخص إحصائي سنوي 2018-19",
+        title: "ملخص إحصائي سنوي 2018-2019",
         ar_source: "http://cosit.gov.iq/ar/2018-2019",
       },
       {
