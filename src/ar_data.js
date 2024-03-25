@@ -1,5 +1,72 @@
 const data = [
   {
+    topic: "الخطط الاستراتيجية الوطنية",
+    description: "يشمل جميع الاستراتيجيات الوطنية الرئيسية التي وافقت عليها الحكومة",
+    files: [
+          {
+            title: "استراتيجية رؤية العراق 2030",
+            ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
+          },
+          {
+            title: "20خطة التنمية الوطنية 2018-22",
+            en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
+          },
+          {
+            title: "استراتيجية مكافحة الفساد 2021-2024",
+            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
+          },
+          {
+            title: "الوثيقة الوطنية للسياسات السكانية 2023",
+            ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
+          },
+          {
+            title: "استراتيجية تطوير القطاع الخاص 2014-2030",
+            en_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
+            ar_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
+          },
+          {
+            title: "سياسة البنية التحتية المدرسية الوطنية للعراق 2023",
+            en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
+            ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
+          },
+          {
+            title: "استراتيجية تخفيف الفقر 2018-22",
+            ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
+          },
+          {
+            title: "استراتيجية الإصلاح الإداري 2021",
+            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
+            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
+          },
+          {
+            title: "خطة مكافحة التطرف العنيف الوطنية 2019",
+            en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
+            ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
+          },
+          {
+            topic: "الورقة البيضاء للإصلاحات المالية 2020",
+            files: [
+              {
+                title: "تقرير الورقة البيضاء 2020",
+                en_source:
+                  "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
+                ar_source:
+                  "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
+              },
+              {
+                title: "خطة تنفيذ الورقة البيضاء 2021",
+                ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
+              },
+              {
+                title: "ملخص الورقة البيضاء 2020",
+                en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
+              },
+            ],
+          },
+        ],
+      },      
+  {
     topic: "السلطة التنفيذية",
     description: "تشمل القرارات الحكومية الهامة وأولويات السياسات",
     files: [
@@ -409,73 +476,7 @@ const data = [
   },
   {
     topic: "التنمية الاقتصادية والاجتماعية",
-    files: [
-      {
-        topic: "الخطط الاستراتيجية الوطنية",
-        files: [
-          {
-            title: "استراتيجية رؤية العراق 2030",
-            ar_source: "https://drive.google.com/file/d/1ceKkWp11ZNOVVZ4ULIs9AhsmDdWIud4O/view?usp=sharing",
-          },
-          {
-            title: "20خطة التنمية الوطنية 2018-22",
-            en_source: "https://drive.google.com/file/d/1AvP3600vTBPAz-EBtXqrxhkt4_OKEn2l/view?usp=sharing",
-            ar_source: "https://drive.google.com/file/d/185H5q4WwML0VsTkHlj6tVTcboxDscIVB/view?usp=sharing",
-          },
-          {
-            title: "استراتيجية مكافحة الفساد 2021-2024",
-            ar_source: "https://drive.google.com/file/d/1yI5YKj_iPdj8Lx1XXpHnhCIJNEENYz7_/view?usp=sharing",
-          },
-          {
-            title: "الوثيقة الوطنية للسياسات السكانية 2023",
-            ar_source: "https://drive.google.com/file/d/1GqbQTTzsNBFiuJbB_Rlety_bGQ5DIcoq/view?usp=sharing",
-          },
-          {
-            title: "استراتيجية تطوير القطاع الخاص 2014-2030",
-            en_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/UNDP-IQ-PrivateSectorDevelopment2014%20-2030.pdf",
-            ar_source: "http://www.iq.undp.org/content/dam/iraq/docs/povred/%D8%A5%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9%20%D8%AA%D8%B7%D9%88%D9%8A%D8%B1%20%D8%A7%D9%84%D9%82%D8%B7%D8%A7%D8%B9%20%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%202014-2030.pdf",
-          },
-          {
-            title: "سياسة البنية التحتية المدرسية الوطنية للعراق 2023",
-            en_source: "http://documents1.worldbank.org/curated/en/099110823040034510/pdf/P17116507bad4c0a00aa1108034f6a199c7.pdf",
-            ar_source: "http://documents1.worldbank.org/curated/en/099111323031099493/pdf/P1711650a7c4a303f0bbdf07992435dc908.pdf",
-          },
-          {
-            title: "استراتيجية تخفيف الفقر 2018-22",
-            ar_source: "https://drive.google.com/file/d/1XOZLRA3oOXlIu2bATGVbZk-9-1RpN61f/view?usp=sharing",
-          },
-          {
-            title: "استراتيجية الإصلاح الإداري 2021",
-            ar_source: "https://drive.google.com/file/d/1UiPkOZO8Cdu_JtZ8masiSHpGWinaa2j8/view?usp=sharing",
-            en_source: "https://drive.google.com/file/d/1A3KtFPGbBCf9xor0VE77azQ0msVSEud4/view?usp=sharing",
-          },
-          {
-            title: "خطة مكافحة التطرف العنيف الوطنية 2019",
-            en_source: "https://drive.google.com/file/d/1L5IadIaZHxl0_kLZtn-k5aq6cMpwqHtr/view?usp=sharing",
-            ar_source: "https://drive.google.com/file/d/1j6Y2pusoIzIyCBsESZpsibqRUNm6Bx-y/view?usp=sharing",
-          },
-          {
-            topic: "الورقة البيضاء للإصلاحات المالية 2020",
-            files: [
-              {
-                title: "تقرير الورقة البيضاء 2020",
-                en_source:
-                  "https://drive.google.com/file/d/1c2K0xtUJyNpgDTtRPlMgQ8QkWoXqG-3c/view?usp=sharing",
-                ar_source:
-                  "https://drive.google.com/file/d/1Og2DzyjMhzQ2bhqeMYiXT1uEhsAB6Psa/view?usp=sharing",
-              },
-              {
-                title: "خطة تنفيذ الورقة البيضاء 2021",
-                ar_source: "https://drive.google.com/file/d/1XSRvYVpHdpde5gRVzV9LBwta2OOGj7_D/view?usp=sharing",
-              },
-              {
-                title: "ملخص الورقة البيضاء 2020",
-                en_source: "https://docs.google.com/document/d/16hxDB4f9x7SCxWjAyoHavVzRC7AVwGVd/edit?usp=sharing&ouid=103968449570748093755&rtpof=true&sd=true",
-              },
-            ],
-          },
-        ],
-      },
+    files: [      
       {
         topic: "تطوير القطاع الخاص",
         files: [
